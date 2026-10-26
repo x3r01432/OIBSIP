@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="32dp" android:background="#EDE7F6">
+    <ImageView android:layout_width="110dp" android:layout_height="110dp" android:src="@drawable/ic_launcher" android:contentDescription="@string/app_name"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tech Quiz" android:textSize="34sp" android:textStyle="bold" android:textColor="#311B92" android:layout_marginTop="16dp"/>
+    <TextView android:id="@+id/textInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:textSize="16sp" android:textColor="#5E35B1" android:layout_marginTop="8dp" android:layout_marginBottom="32dp"/>
+    <Button android:id="@+id/btnStart" android:layout_width="match_parent" android:layout_height="60dp" android:text="Start Quiz" android:textSize="18sp" android:textColor="#FFFFFF" android:backgroundTint="#673AB7"/>
+</LinearLayout>

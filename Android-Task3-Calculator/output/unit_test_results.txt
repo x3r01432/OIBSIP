@@ -1,0 +1,11 @@
+com.stevenrios.calculator.CalculatorEngineTest: tests=10 failures=0 errors=0 time=0.006s
+  PASS basics
+  PASS expressionLine
+  PASS decimalsAreExact
+  PASS signAndPercent
+  PASS clear
+  PASS precedence
+  PASS newNumberAfterEquals
+  PASS backspace
+  PASS divideByZeroShowsError
+  PASS oneDotOnly

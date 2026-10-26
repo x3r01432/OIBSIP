@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center_horizontal" android:padding="20dp" android:background="#E0F2F1">
+    <FrameLayout android:layout_width="260dp" android:layout_height="260dp" android:layout_marginTop="24dp" android:background="@drawable/circle">
+        <TextView android:id="@+id/textTime" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center"
+            android:text="00:00:00.00" android:textSize="38sp" android:textStyle="bold" android:textColor="#004D40" android:fontFamily="monospace"/>
+    </FrameLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="28dp">
+        <Button android:id="@+id/btnStartStop" android:layout_width="0dp" android:layout_weight="1" android:layout_height="60dp" android:layout_marginEnd="6dp" android:text="Start" android:textSize="17sp" android:textColor="#FFFFFF" android:backgroundTint="#43A047"/>
+        <Button android:id="@+id/btnLap" android:layout_width="0dp" android:layout_weight="1" android:layout_height="60dp" android:layout_marginHorizontal="6dp" android:text="Lap" android:textSize="17sp" android:enabled="false"/>
+        <Button android:id="@+id/btnReset" android:layout_width="0dp" android:layout_weight="1" android:layout_height="60dp" android:layout_marginStart="6dp" android:text="Reset" android:textSize="17sp" android:enabled="false"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Laps" android:textStyle="bold" android:textColor="#00695C" android:layout_marginTop="20dp"/>
+    <ListView android:id="@+id/listLaps" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

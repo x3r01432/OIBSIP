@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="28dp" android:gravity="center_vertical" android:background="#FAFAFA">
+    <ImageView android:layout_width="72dp" android:layout_height="72dp" android:layout_gravity="center_horizontal" android:src="@drawable/ic_launcher" android:contentDescription="@string/app_name"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Welcome back" android:gravity="center"
+        android:textSize="26sp" android:textStyle="bold" android:textColor="#1A237E" android:layout_marginTop="12dp" android:layout_marginBottom="24dp"/>
+    <EditText android:id="@+id/editUsername" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/username" android:inputType="text" android:importantForAutofill="no"/>
+    <EditText android:id="@+id/editPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/password" android:inputType="textPassword" android:importantForAutofill="no"/>
+    <Button android:id="@+id/btnLogin" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="16dp" android:text="@string/login" android:textColor="#FFFFFF" android:backgroundTint="#3F51B5"/>
+    <Button android:id="@+id/btnGoRegister" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_account" style="?android:attr/borderlessButtonStyle"/>
+</LinearLayout>

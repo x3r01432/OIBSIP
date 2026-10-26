@@ -1,0 +1,5 @@
+com.stevenrios.todo.LogicTest: tests=4 failures=0 errors=0 time=0.204s
+  PASS taskRules
+  PASS hashIsSaltedAndVerifies
+  PASS passwordRules
+  PASS usernameRules

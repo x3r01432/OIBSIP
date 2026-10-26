@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="28dp" android:gravity="center_vertical" android:background="#FAFAFA">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/register" android:gravity="center"
+        android:textSize="26sp" android:textStyle="bold" android:textColor="#1A237E" android:layout_marginBottom="24dp"/>
+    <EditText android:id="@+id/editUsername" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/username" android:inputType="text" android:importantForAutofill="no"/>
+    <EditText android:id="@+id/editPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/password" android:inputType="textPassword" android:importantForAutofill="no"/>
+    <EditText android:id="@+id/editConfirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/confirm_password" android:inputType="textPassword" android:importantForAutofill="no"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Username: 3–20 letters, digits or _ . Password: 6+ characters." android:textColor="#757575" android:textSize="12sp"/>
+    <Button android:id="@+id/btnRegister" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="16dp" android:text="@string/register" android:textColor="#FFFFFF" android:backgroundTint="#3F51B5"/>
+</LinearLayout>

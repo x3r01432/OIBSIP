@@ -1,0 +1,6 @@
+com.stevenrios.quiz.QuizEngineTest: tests=5 failures=0 errors=0 time=0.006s
+  PASS verdicts
+  PASS bankHasAtLeastTenValidQuestions
+  PASS shufflingKeepsCorrectAnswer
+  PASS scoringAndFlow
+  PASS orderIsShuffled

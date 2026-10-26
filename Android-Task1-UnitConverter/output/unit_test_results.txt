@@ -1,0 +1,8 @@
+com.stevenrios.unitconverter.UnitConverterTest: tests=7 failures=0 errors=0 time=0.006s
+  PASS sameUnitIsIdentity
+  PASS length
+  PASS weight
+  PASS validation
+  PASS temperature
+  PASS formatting
+  PASS volumeAndSpeed

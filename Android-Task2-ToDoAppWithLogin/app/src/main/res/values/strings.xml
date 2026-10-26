@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">To-Do</string>
+    <string name="register">Create account</string>
+    <string name="my_tasks">My Tasks</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="login">Log in</string>
+    <string name="no_account">No account? Register</string>
+    <string name="new_task">New task…</string>
+    <string name="add">Add</string>
+    <string name="logout">Log out</string>
+    <string name="empty_state">No tasks yet.\nAdd your first task above ✍️</string>
+    <string name="delete">Delete</string>
+</resources>
