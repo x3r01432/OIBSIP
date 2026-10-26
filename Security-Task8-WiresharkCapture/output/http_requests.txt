@@ -1,0 +1,12 @@
+4	GET	http://127.0.0.1:8080/login.php?user=admin&pass=secret123
+16	GET	http://127.0.0.1:8080/
+28	GET	http://127.0.0.1:8080/login.php?user=admin&pass=secret123
+40	GET	http://127.0.0.1:8080/
+52	GET	http://127.0.0.1:8080/login.php?user=admin&pass=secret123
+64	GET	http://127.0.0.1:8080/
+76	GET	http://127.0.0.1:8080/login.php?user=admin&pass=secret123
+88	GET	http://127.0.0.1:8080/
+100	GET	http://127.0.0.1:8080/login.php?user=admin&pass=secret123
+112	GET	http://127.0.0.1:8080/
+124	GET	http://127.0.0.1:8080/login.php?user=admin&pass=secret123
+136	GET	http://127.0.0.1:8080/

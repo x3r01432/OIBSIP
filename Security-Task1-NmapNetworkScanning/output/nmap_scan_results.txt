@@ -1,0 +1,645 @@
+# Nmap scan session — target: localhost (127.0.0.1), a host I own/operate
+# Date: Mon Oct 26 11:54:40 PDT 2026
+
+=== [1] Basic scan: nmap 127.0.0.1 ===
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-26 11:54 PDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000065s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+5900/tcp open  vnc
+8080/tcp open  http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 0.03 seconds
+
+=== [2] Service/version scan: nmap -sV 127.0.0.1 ===
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-26 11:54 PDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000030s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+5900/tcp open  vnc     VNC (protocol 3.8)
+8080/tcp open  http    (PHP 8.4.27)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.95%I=7%D=10/26%Time=6ADFA1F6%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,216,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Mon,\x2026\x20Oct\x20
+SF:2026\x2018:54:46\x20GMT\r\nConnection:\x20close\r\nX-Powered-By:\x20PHP
+SF:/8\.4\.27\r\nContent-type:\x20text/html;\x20charset=UTF-8\r\n\r\n<!doct
+SF:ype\x20html><html><head><title>Vuln\x20Bank\x20-\x20Login</title></head
+SF:><body>\n<h1>Vuln\x20Bank\x20Portal</h1>\n<form\x20method=\"GET\"\x20ac
+SF:tion=\"login\.php\">\nUser\x20ID:\x20<input\x20name=\"id\"\x20value=\"1
+SF:\">\x20<input\x20type=\"submit\"\x20value=\"Lookup\">\n</form>\n<hr><fo
+SF:rm\x20method=\"GET\"\x20action=\"login\.php\">\nUsername:\x20<input\x20
+SF:name=\"user\">\x20Password:\x20<input\x20name=\"pass\"\x20type=\"text\"
+SF:>\x20<input\x20type=\"submit\"\x20value=\"Login\">\n</form></body></htm
+SF:l>\n")%r(HTTPOptions,216,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Mon,\x2026
+SF:\x20Oct\x202026\x2018:54:46\x20GMT\r\nConnection:\x20close\r\nX-Powered
+SF:-By:\x20PHP/8\.4\.27\r\nContent-type:\x20text/html;\x20charset=UTF-8\r\
+SF:n\r\n<!doctype\x20html><html><head><title>Vuln\x20Bank\x20-\x20Login</t
+SF:itle></head><body>\n<h1>Vuln\x20Bank\x20Portal</h1>\n<form\x20method=\"
+SF:GET\"\x20action=\"login\.php\">\nUser\x20ID:\x20<input\x20name=\"id\"\x
+SF:20value=\"1\">\x20<input\x20type=\"submit\"\x20value=\"Lookup\">\n</for
+SF:m>\n<hr><form\x20method=\"GET\"\x20action=\"login\.php\">\nUsername:\x2
+SF:0<input\x20name=\"user\">\x20Password:\x20<input\x20name=\"pass\"\x20ty
+SF:pe=\"text\">\x20<input\x20type=\"submit\"\x20value=\"Login\">\n</form><
+SF:/body></html>\n")%r(FourOhFourRequest,216,"HTTP/1\.0\x20200\x20OK\r\nDa
+SF:te:\x20Mon,\x2026\x20Oct\x202026\x2018:54:46\x20GMT\r\nConnection:\x20c
+SF:lose\r\nX-Powered-By:\x20PHP/8\.4\.27\r\nContent-type:\x20text/html;\x2
+SF:0charset=UTF-8\r\n\r\n<!doctype\x20html><html><head><title>Vuln\x20Bank
+SF:\x20-\x20Login</title></head><body>\n<h1>Vuln\x20Bank\x20Portal</h1>\n<
+SF:form\x20method=\"GET\"\x20action=\"login\.php\">\nUser\x20ID:\x20<input
+SF:\x20name=\"id\"\x20value=\"1\">\x20<input\x20type=\"submit\"\x20value=\
+SF:"Lookup\">\n</form>\n<hr><form\x20method=\"GET\"\x20action=\"login\.php
+SF:\">\nUsername:\x20<input\x20name=\"user\">\x20Password:\x20<input\x20na
+SF:me=\"pass\"\x20type=\"text\">\x20<input\x20type=\"submit\"\x20value=\"L
+SF:ogin\">\n</form></body></html>\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.77 seconds
+
+=== [3] OS detection: nmap -O 127.0.0.1 ===
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-26 11:54 PDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000039s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+5900/tcp open  vnc
+8080/tcp open  http-proxy
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=10/26%OT=5900%CT=1%CU=38129%PV=N%DS=0%DC=L%G=Y%TM=6ADF
+OS:A20F%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=22
+OS:)SEQ(SP=103%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=21)SEQ(SP=104%GCD=1%ISR=107%
+OS:TI=Z%CI=Z%II=I%TS=20)SEQ(SP=106%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=21)SEQ(S
+OS:P=107%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=21)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST1
+OS:1NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W
+OS:1=FFCB%W2=FFCB%W3=FFCB%W4=FFCB%W5=FFCB%W6=FFCB)ECN(R=Y%DF=Y%T=7F%W=FFD7%
+OS:O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=7F%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R
+OS:=N)T4(R=Y%DF=Y%T=7F%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=7F%W=0%S=Z%
+OS:A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=7F%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%
+OS:DF=Y%T=7F%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=7F%IPL=164%UN=0%RIP
+OS:L=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=7F%CD=S)
+
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.79 seconds
+
+=== [4] Full port + default scripts on web port: nmap -sV -p- -sC 127.0.0.1 ===
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-10-26 11:55 PDT
+WARNING: Service 127.0.0.1:2375 had already soft-matched http, but now soft-matched docker; ignoring second value
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000030s latency).
+Not shown: 9986 closed tcp ports (reset)
+PORT     STATE SERVICE        VERSION
+1337/tcp open  waste?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, Kerberos, LANDesk-RC, LDAPBindReq, LDAPSearchReq, LPDString, NCP, RPCCheck, SIPOptions, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServer, TerminalServerCookie, X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|   FourOhFourRequest, GetRequest, HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 404 Not Found
+|     Date: Mon, 26 Oct 2026 18:55:23 GMT
+|_    Connection: close
+1338/tcp open  websocket      Ogar agar.io server
+1339/tcp open  kjtsiteserver?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, Kerberos, LDAPBindReq, LDAPSearchReq, LPDString, RPCCheck, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServerCookie, X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     date: Mon, 26 Oct 2026 18:55:38 GMT
+|     connection: keep-alive
+|     keep-alive: timeout=5
+|     transfer-encoding: chunked
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     date: Mon, 26 Oct 2026 18:55:23 GMT
+|     connection: keep-alive
+|     keep-alive: timeout=5
+|     transfer-encoding: chunked
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     date: Mon, 26 Oct 2026 18:55:28 GMT
+|     connection: keep-alive
+|     keep-alive: timeout=5
+|     transfer-encoding: chunked
+|   RTSPRequest: 
+|     HTTP/1.1 404 Not Found
+|     date: Mon, 26 Oct 2026 18:55:33 GMT
+|     connection: keep-alive
+|     keep-alive: timeout=5
+|_    transfer-encoding: chunked
+1340/tcp open  naap?
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, Kerberos, RPCCheck, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServerCookie, X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     content-type: application/json
+|     content-length: 63
+|     cache-control: no-store
+|     Date: Mon, 26 Oct 2026 18:55:23 GMT
+|     Connection: close
+|     {"error":"not found: GET /nice%20ports%2C/Tri%6Eity.txt%2ebak"}
+|   GetRequest: 
+|     HTTP/1.1 404 Not Found
+|     content-type: application/json
+|     content-length: 28
+|     cache-control: no-store
+|     Date: Mon, 26 Oct 2026 18:55:23 GMT
+|     Connection: close
+|     {"error":"not found: GET /"}
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 404 Not Found
+|     content-type: application/json
+|     content-length: 32
+|     cache-control: no-store
+|     Date: Mon, 26 Oct 2026 18:55:23 GMT
+|     Connection: close
+|_    {"error":"not found: OPTIONS /"}
+2375/tcp open  docker         Docker 29.1.4 (API 1.52)
+| docker-version: 
+|   GitCommit: 08440b6
+|   BuildTime: 2026-01-08T19:56:47.000000000+00:00
+|   Components: 
+|     
+|       Details: 
+|         GitCommit: 08440b6
+|         BuildTime: 2026-01-08T19:56:47.000000000+00:00
+|         ApiVersion: 1.52
+|         Arch: amd64
+|         MinAPIVersion: 1.44
+|         KernelVersion: 6.12.94+
+|         Experimental: false
+|         Os: linux
+|         GoVersion: go1.25.5
+|       Name: Engine
+|       Version: 29.1.4
+|     
+|       Details: 
+|         GitCommit: e53c7c1516c3b2bff98eb76f1f4117477e6f4e66
+|       Name: containerd
+|       Version: v2.2.5
+|     
+|       Details: 
+|         GitCommit: v1.3.6-0-g491b69ba
+|       Name: runc
+|       Version: 1.3.6
+|     
+|       Details: 
+|         GitCommit: de40ad0
+|       Name: docker-init
+|       Version: 0.19.0
+|   ApiVersion: 1.52
+|   Arch: amd64
+|   MinAPIVersion: 1.44
+|   Platform: 
+|     Name: Docker Engine - Community
+|   Version: 29.1.4
+|   Os: linux
+|   KernelVersion: 6.12.94+
+|_  GoVersion: go1.25.5
+5037/tcp open  unknown
+5900/tcp open  vnc            VNC (protocol 3.8)
+| vnc-info: 
+|   Protocol version: 3.8
+|   Security types: 
+|     None (1)
+|_  WARNING: Server does not require authentication
+5909/tcp open  vnc            VNC (protocol 3.8)
+| vnc-info: 
+|   Protocol version: 3.8
+|   Security types: 
+|     None (1)
+|_  WARNING: Server does not require authentication
+6080/tcp open  gue?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Server: WebSockify Python/3.13.5
+|     Date: Mon, 26 Oct 2026 18:55:15 GMT
+|     Content-type: text/html; charset=utf-8
+|     Content-Length: 669
+|     <!DOCTYPE HTML>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8">
+|     <title>Directory listing for /</title>
+|     </head>
+|     <body>
+|     <h1>Directory listing for /</h1>
+|     <hr>
+|     <ul>
+|     <li><a href="app/">app/</a></li>
+|     <li><a href="core/">core/</a></li>
+|     <li><a href="defaults.json">defaults.json</a></li>
+|     <li><a href="include/">include/</a></li>
+|     <li><a href="mandatory.json">mandatory.json</a></li>
+|     <li><a href="package.json">package.json</a></li>
+|     <li><a href="utils/">utils/</a></li>
+|     <li><a href="vendor/">vendor/</a></li>
+|     <li><a href="vnc.html">vnc.html</a></li>
+|     <li><a href="vnc_auto.html">vnc_auto.html@</a></li>
+|     <li><a href="vnc_lite.html">vnc_lite.html</a></li>
+|     </ul>
+|     <hr>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 501 Unsupported method ('OPTIONS')
+|     Server: WebSockify Python/3.13.5
+|     Date: Mon, 26 Oct 2026 18:55:15 GMT
+|     Connection: close
+|     Content-Type: text/html;charset=utf-8
+|     Content-Length: 360
+|     <!DOCTYPE HTML>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8">
+|     <title>Error response</title>
+|     </head>
+|     <body>
+|     <h1>Error response</h1>
+|     <p>Error code: 501</p>
+|     <p>Message: Unsupported method ('OPTIONS').</p>
+|     <p>Error code explanation: 501 - Server does not support this operation.</p>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     <!DOCTYPE HTML>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8">
+|     <title>Error response</title>
+|     </head>
+|     <body>
+|     <h1>Error response</h1>
+|     <p>Error code: 400</p>
+|     <p>Message: Bad request version ('RTSP/1.0').</p>
+|     <p>Error code explanation: 400 - Bad request syntax or unsupported method.</p>
+|     </body>
+|_    </html>
+6081/tcp open  geneve?
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Server: WebSockify Python/3.13.5
+|     Date: Mon, 26 Oct 2026 18:55:15 GMT
+|     Content-type: text/html; charset=utf-8
+|     Content-Length: 669
+|     <!DOCTYPE HTML>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8">
+|     <title>Directory listing for /</title>
+|     </head>
+|     <body>
+|     <h1>Directory listing for /</h1>
+|     <hr>
+|     <ul>
+|     <li><a href="app/">app/</a></li>
+|     <li><a href="core/">core/</a></li>
+|     <li><a href="defaults.json">defaults.json</a></li>
+|     <li><a href="include/">include/</a></li>
+|     <li><a href="mandatory.json">mandatory.json</a></li>
+|     <li><a href="package.json">package.json</a></li>
+|     <li><a href="utils/">utils/</a></li>
+|     <li><a href="vendor/">vendor/</a></li>
+|     <li><a href="vnc.html">vnc.html</a></li>
+|     <li><a href="vnc_auto.html">vnc_auto.html@</a></li>
+|     <li><a href="vnc_lite.html">vnc_lite.html</a></li>
+|     </ul>
+|     <hr>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 501 Unsupported method ('OPTIONS')
+|     Server: WebSockify Python/3.13.5
+|     Date: Mon, 26 Oct 2026 18:55:15 GMT
+|     Connection: close
+|     Content-Type: text/html;charset=utf-8
+|     Content-Length: 360
+|     <!DOCTYPE HTML>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8">
+|     <title>Error response</title>
+|     </head>
+|     <body>
+|     <h1>Error response</h1>
+|     <p>Error code: 501</p>
+|     <p>Message: Unsupported method ('OPTIONS').</p>
+|     <p>Error code explanation: 501 - Server does not support this operation.</p>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     <!DOCTYPE HTML>
+|     <html lang="en">
+|     <head>
+|     <meta charset="utf-8">
+|     <title>Error response</title>
+|     </head>
+|     <body>
+|     <h1>Error response</h1>
+|     <p>Error code: 400</p>
+|     <p>Message: Bad request version ('RTSP/1.0').</p>
+|     <p>Error code explanation: 400 - Bad request syntax or unsupported method.</p>
+|     </body>
+|_    </html>
+8080/tcp open  http           (PHP 8.4.27)
+|_http-title: Vuln Bank - Login
+|_http-open-proxy: Proxy might be redirecting requests
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions: 
+|     HTTP/1.0 200 OK
+|     Date: Mon, 26 Oct 2026 18:55:18 GMT
+|     Connection: close
+|     X-Powered-By: PHP/8.4.27
+|     Content-type: text/html; charset=UTF-8
+|     <!doctype html><html><head><title>Vuln Bank - Login</title></head><body>
+|     <h1>Vuln Bank Portal</h1>
+|     <form method="GET" action="login.php">
+|     User ID: <input name="id" value="1"> <input type="submit" value="Lookup">
+|     </form>
+|     <hr><form method="GET" action="login.php">
+|     Username: <input name="user"> Password: <input name="pass" type="text"> <input type="submit" value="Login">
+|_    </form></body></html>
+8545/tcp open  unknown
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, Kerberos, RPCCheck, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServerCookie, X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: close
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Access-Control-Allow-Origin: *
+|     Access-Control-Request-Method: *
+|     Access-Control-Allow-Methods: OPTIONS, GET
+|     Access-Control-Allow-Headers: *
+|     Content-Type: application/json
+|     Date: Mon, 26 Oct 2026 18:55:23 GMT
+|     Connection: close
+|     {"jsonrpc":"2.0","id":null,"error":{"code":-32700,"message":"Parse error: Unexpected end of JSON input","data":{"message":"Parse error: Unexpected end of JSON input"}}}
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.1 200 OK
+|     Access-Control-Allow-Origin: *
+|     Access-Control-Request-Method: *
+|     Access-Control-Allow-Methods: OPTIONS, GET
+|     Access-Control-Allow-Headers: *
+|     Date: Mon, 26 Oct 2026 18:55:23 GMT
+|_    Connection: close
+8790/tcp open  unknown
+8791/tcp open  unknown
+| fingerprint-strings: 
+|   FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|_    HTTP/1.1 400 Bad Request
+8 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1337-TCP:V=7.95%I=7%D=10/26%Time=6ADFA21B%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,52,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2026\x
+SF:20Oct\x202026\x2018:55:23\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(HT
+SF:TPOptions,52,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2026\x
+SF:20Oct\x202026\x2018:55:23\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(RT
+SF:SPRequest,52,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Mon,\x2026\x
+SF:20Oct\x202026\x2018:55:23\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(RP
+SF:CCheck,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r
+SF:\n\r\n")%r(DNSVersionBindReqTCP,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\
+SF:r\nConnection:\x20close\r\n\r\n")%r(DNSStatusRequestTCP,2F,"HTTP/1\.1\x
+SF:20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(Help,2F,"HT
+SF:TP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(SS
+SF:LSessionReq,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20cl
+SF:ose\r\n\r\n")%r(TerminalServerCookie,2F,"HTTP/1\.1\x20400\x20Bad\x20Req
+SF:uest\r\nConnection:\x20close\r\n\r\n")%r(TLSSessionReq,2F,"HTTP/1\.1\x2
+SF:0400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(Kerberos,2F,
+SF:"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r
+SF:(SMBProgNeg,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20cl
+SF:ose\r\n\r\n")%r(X11Probe,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConn
+SF:ection:\x20close\r\n\r\n")%r(FourOhFourRequest,52,"HTTP/1\.1\x20404\x20
+SF:Not\x20Found\r\nDate:\x20Mon,\x2026\x20Oct\x202026\x2018:55:23\x20GMT\r
+SF:\nConnection:\x20close\r\n\r\n")%r(LPDString,2F,"HTTP/1\.1\x20400\x20Ba
+SF:d\x20Request\r\nConnection:\x20close\r\n\r\n")%r(LDAPSearchReq,2F,"HTTP
+SF:/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(LDAP
+SF:BindReq,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\
+SF:r\n\r\n")%r(SIPOptions,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnec
+SF:tion:\x20close\r\n\r\n")%r(LANDesk-RC,2F,"HTTP/1\.1\x20400\x20Bad\x20Re
+SF:quest\r\nConnection:\x20close\r\n\r\n")%r(TerminalServer,2F,"HTTP/1\.1\
+SF:x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(NCP,2F,"HT
+SF:TP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1339-TCP:V=7.95%I=7%D=10/26%Time=6ADFA220%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,8F,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Mon,\x2026\x
+SF:20Oct\x202026\x2018:55:23\x20GMT\r\nconnection:\x20keep-alive\r\nkeep-a
+SF:live:\x20timeout=5\r\ntransfer-encoding:\x20chunked\r\n\r\n0\r\n\r\n")%
+SF:r(HTTPOptions,8F,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Mon,\x20
+SF:26\x20Oct\x202026\x2018:55:28\x20GMT\r\nconnection:\x20keep-alive\r\nke
+SF:ep-alive:\x20timeout=5\r\ntransfer-encoding:\x20chunked\r\n\r\n0\r\n\r\
+SF:n")%r(RTSPRequest,8F,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Mon,
+SF:\x2026\x20Oct\x202026\x2018:55:33\x20GMT\r\nconnection:\x20keep-alive\r
+SF:\nkeep-alive:\x20timeout=5\r\ntransfer-encoding:\x20chunked\r\n\r\n0\r\
+SF:n\r\n")%r(RPCCheck,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection
+SF::\x20close\r\n\r\n")%r(DNSVersionBindReqTCP,2F,"HTTP/1\.1\x20400\x20Bad
+SF:\x20Request\r\nConnection:\x20close\r\n\r\n")%r(DNSStatusRequestTCP,2F,
+SF:"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r
+SF:(Help,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\
+SF:n\r\n")%r(SSLSessionReq,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConne
+SF:ction:\x20close\r\n\r\n")%r(TerminalServerCookie,2F,"HTTP/1\.1\x20400\x
+SF:20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(TLSSessionReq,2F,"
+SF:HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(
+SF:Kerberos,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close
+SF:\r\n\r\n")%r(SMBProgNeg,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConne
+SF:ction:\x20close\r\n\r\n")%r(X11Probe,2F,"HTTP/1\.1\x20400\x20Bad\x20Req
+SF:uest\r\nConnection:\x20close\r\n\r\n")%r(FourOhFourRequest,8F,"HTTP/1\.
+SF:1\x20404\x20Not\x20Found\r\ndate:\x20Mon,\x2026\x20Oct\x202026\x2018:55
+SF::38\x20GMT\r\nconnection:\x20keep-alive\r\nkeep-alive:\x20timeout=5\r\n
+SF:transfer-encoding:\x20chunked\r\n\r\n0\r\n\r\n")%r(LPDString,2F,"HTTP/1
+SF:\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(LDAPSe
+SF:archReq,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\
+SF:r\n\r\n")%r(LDAPBindReq,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConne
+SF:ction:\x20close\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port1340-TCP:V=7.95%I=7%D=10/26%Time=6ADFA21B%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,BB,"HTTP/1\.1\x20404\x20Not\x20Found\r\ncontent-type:\x20appl
+SF:ication/json\r\ncontent-length:\x2028\r\ncache-control:\x20no-store\r\n
+SF:Date:\x20Mon,\x2026\x20Oct\x202026\x2018:55:23\x20GMT\r\nConnection:\x2
+SF:0close\r\n\r\n{\"error\":\"not\x20found:\x20GET\x20/\"}")%r(HTTPOptions
+SF:,BF,"HTTP/1\.1\x20404\x20Not\x20Found\r\ncontent-type:\x20application/j
+SF:son\r\ncontent-length:\x2032\r\ncache-control:\x20no-store\r\nDate:\x20
+SF:Mon,\x2026\x20Oct\x202026\x2018:55:23\x20GMT\r\nConnection:\x20close\r\
+SF:n\r\n{\"error\":\"not\x20found:\x20OPTIONS\x20/\"}")%r(RTSPRequest,BF,"
+SF:HTTP/1\.1\x20404\x20Not\x20Found\r\ncontent-type:\x20application/json\r
+SF:\ncontent-length:\x2032\r\ncache-control:\x20no-store\r\nDate:\x20Mon,\
+SF:x2026\x20Oct\x202026\x2018:55:23\x20GMT\r\nConnection:\x20close\r\n\r\n
+SF:{\"error\":\"not\x20found:\x20OPTIONS\x20/\"}")%r(RPCCheck,2F,"HTTP/1\.
+SF:1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(DNSVersi
+SF:onBindReqTCP,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20c
+SF:lose\r\n\r\n")%r(DNSStatusRequestTCP,2F,"HTTP/1\.1\x20400\x20Bad\x20Req
+SF:uest\r\nConnection:\x20close\r\n\r\n")%r(Help,2F,"HTTP/1\.1\x20400\x20B
+SF:ad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(SSLSessionReq,2F,"HTT
+SF:P/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(Ter
+SF:minalServerCookie,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:
+SF:\x20close\r\n\r\n")%r(TLSSessionReq,2F,"HTTP/1\.1\x20400\x20Bad\x20Requ
+SF:est\r\nConnection:\x20close\r\n\r\n")%r(Kerberos,2F,"HTTP/1\.1\x20400\x
+SF:20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(SMBProgNeg,2F,"HTT
+SF:P/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(X11
+SF:Probe,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\
+SF:n\r\n")%r(FourOhFourRequest,DE,"HTTP/1\.1\x20404\x20Not\x20Found\r\ncon
+SF:tent-type:\x20application/json\r\ncontent-length:\x2063\r\ncache-contro
+SF:l:\x20no-store\r\nDate:\x20Mon,\x2026\x20Oct\x202026\x2018:55:23\x20GMT
+SF:\r\nConnection:\x20close\r\n\r\n{\"error\":\"not\x20found:\x20GET\x20/n
+SF:ice%20ports%2C/Tri%6Eity\.txt%2ebak\"}");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port6080-TCP:V=7.95%I=7%D=10/26%Time=6ADFA213%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,334,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20WebSockify\x20Pytho
+SF:n/3\.13\.5\r\nDate:\x20Mon,\x2026\x20Oct\x202026\x2018:55:15\x20GMT\r\n
+SF:Content-type:\x20text/html;\x20charset=utf-8\r\nContent-Length:\x20669\
+SF:r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20lang=\"en\">\n<head>\n<meta\x20char
+SF:set=\"utf-8\">\n<title>Directory\x20listing\x20for\x20/</title>\n</head
+SF:>\n<body>\n<h1>Directory\x20listing\x20for\x20/</h1>\n<hr>\n<ul>\n<li><
+SF:a\x20href=\"app/\">app/</a></li>\n<li><a\x20href=\"core/\">core/</a></l
+SF:i>\n<li><a\x20href=\"defaults\.json\">defaults\.json</a></li>\n<li><a\x
+SF:20href=\"include/\">include/</a></li>\n<li><a\x20href=\"mandatory\.json
+SF:\">mandatory\.json</a></li>\n<li><a\x20href=\"package\.json\">package\.
+SF:json</a></li>\n<li><a\x20href=\"utils/\">utils/</a></li>\n<li><a\x20hre
+SF:f=\"vendor/\">vendor/</a></li>\n<li><a\x20href=\"vnc\.html\">vnc\.html<
+SF:/a></li>\n<li><a\x20href=\"vnc_auto\.html\">vnc_auto\.html@</a></li>\n<
+SF:li><a\x20href=\"vnc_lite\.html\">vnc_lite\.html</a></li>\n</ul>\n<hr>\n
+SF:</body>\n</html>\n")%r(HTTPOptions,22D,"HTTP/1\.1\x20501\x20Unsupported
+SF:\x20method\x20\('OPTIONS'\)\r\nServer:\x20WebSockify\x20Python/3\.13\.5
+SF:\r\nDate:\x20Mon,\x2026\x20Oct\x202026\x2018:55:15\x20GMT\r\nConnection
+SF::\x20close\r\nContent-Type:\x20text/html;charset=utf-8\r\nContent-Lengt
+SF:h:\x20360\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20lang=\"en\">\n\x20\x20\x2
+SF:0\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20charset=\"utf-8\"
+SF:>\n\x20\x20\x20\x20\x20\x20\x20\x20<title>Error\x20response</title>\n\x
+SF:20\x20\x20\x20</head>\n\x20\x20\x20\x20<body>\n\x20\x20\x20\x20\x20\x20
+SF:\x20\x20<h1>Error\x20response</h1>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>
+SF:Error\x20code:\x20501</p>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Message:\
+SF:x20Unsupported\x20method\x20\('OPTIONS'\)\.</p>\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20<p>Error\x20code\x20explanation:\x20501\x20-\x20Server\x20doe
+SF:s\x20not\x20support\x20this\x20operation\.</p>\n\x20\x20\x20\x20</body>
+SF:\n</html>\n")%r(RTSPRequest,16C,"<!DOCTYPE\x20HTML>\n<html\x20lang=\"en
+SF:\">\n\x20\x20\x20\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20c
+SF:harset=\"utf-8\">\n\x20\x20\x20\x20\x20\x20\x20\x20<title>Error\x20resp
+SF:onse</title>\n\x20\x20\x20\x20</head>\n\x20\x20\x20\x20<body>\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20<h1>Error\x20response</h1>\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20<p>Error\x20code:\x20400</p>\n\x20\x20\x20\x20\x20\x20\x20
+SF:\x20<p>Message:\x20Bad\x20request\x20version\x20\('RTSP/1\.0'\)\.</p>\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20code\x20explanation:\x20400
+SF:\x20-\x20Bad\x20request\x20syntax\x20or\x20unsupported\x20method\.</p>\
+SF:n\x20\x20\x20\x20</body>\n</html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port6081-TCP:V=7.95%I=7%D=10/26%Time=6ADFA213%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,334,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20WebSockify\x20Pytho
+SF:n/3\.13\.5\r\nDate:\x20Mon,\x2026\x20Oct\x202026\x2018:55:15\x20GMT\r\n
+SF:Content-type:\x20text/html;\x20charset=utf-8\r\nContent-Length:\x20669\
+SF:r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20lang=\"en\">\n<head>\n<meta\x20char
+SF:set=\"utf-8\">\n<title>Directory\x20listing\x20for\x20/</title>\n</head
+SF:>\n<body>\n<h1>Directory\x20listing\x20for\x20/</h1>\n<hr>\n<ul>\n<li><
+SF:a\x20href=\"app/\">app/</a></li>\n<li><a\x20href=\"core/\">core/</a></l
+SF:i>\n<li><a\x20href=\"defaults\.json\">defaults\.json</a></li>\n<li><a\x
+SF:20href=\"include/\">include/</a></li>\n<li><a\x20href=\"mandatory\.json
+SF:\">mandatory\.json</a></li>\n<li><a\x20href=\"package\.json\">package\.
+SF:json</a></li>\n<li><a\x20href=\"utils/\">utils/</a></li>\n<li><a\x20hre
+SF:f=\"vendor/\">vendor/</a></li>\n<li><a\x20href=\"vnc\.html\">vnc\.html<
+SF:/a></li>\n<li><a\x20href=\"vnc_auto\.html\">vnc_auto\.html@</a></li>\n<
+SF:li><a\x20href=\"vnc_lite\.html\">vnc_lite\.html</a></li>\n</ul>\n<hr>\n
+SF:</body>\n</html>\n")%r(HTTPOptions,22D,"HTTP/1\.1\x20501\x20Unsupported
+SF:\x20method\x20\('OPTIONS'\)\r\nServer:\x20WebSockify\x20Python/3\.13\.5
+SF:\r\nDate:\x20Mon,\x2026\x20Oct\x202026\x2018:55:15\x20GMT\r\nConnection
+SF::\x20close\r\nContent-Type:\x20text/html;charset=utf-8\r\nContent-Lengt
+SF:h:\x20360\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20lang=\"en\">\n\x20\x20\x2
+SF:0\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20charset=\"utf-8\"
+SF:>\n\x20\x20\x20\x20\x20\x20\x20\x20<title>Error\x20response</title>\n\x
+SF:20\x20\x20\x20</head>\n\x20\x20\x20\x20<body>\n\x20\x20\x20\x20\x20\x20
+SF:\x20\x20<h1>Error\x20response</h1>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>
+SF:Error\x20code:\x20501</p>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Message:\
+SF:x20Unsupported\x20method\x20\('OPTIONS'\)\.</p>\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20<p>Error\x20code\x20explanation:\x20501\x20-\x20Server\x20doe
+SF:s\x20not\x20support\x20this\x20operation\.</p>\n\x20\x20\x20\x20</body>
+SF:\n</html>\n")%r(RTSPRequest,16C,"<!DOCTYPE\x20HTML>\n<html\x20lang=\"en
+SF:\">\n\x20\x20\x20\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20c
+SF:harset=\"utf-8\">\n\x20\x20\x20\x20\x20\x20\x20\x20<title>Error\x20resp
+SF:onse</title>\n\x20\x20\x20\x20</head>\n\x20\x20\x20\x20<body>\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20<h1>Error\x20response</h1>\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20<p>Error\x20code:\x20400</p>\n\x20\x20\x20\x20\x20\x20\x20
+SF:\x20<p>Message:\x20Bad\x20request\x20version\x20\('RTSP/1\.0'\)\.</p>\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20code\x20explanation:\x20400
+SF:\x20-\x20Bad\x20request\x20syntax\x20or\x20unsupported\x20method\.</p>\
+SF:n\x20\x20\x20\x20</body>\n</html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.95%I=7%D=10/26%Time=6ADFA216%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,216,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Mon,\x2026\x20Oct\x20
+SF:2026\x2018:55:18\x20GMT\r\nConnection:\x20close\r\nX-Powered-By:\x20PHP
+SF:/8\.4\.27\r\nContent-type:\x20text/html;\x20charset=UTF-8\r\n\r\n<!doct
+SF:ype\x20html><html><head><title>Vuln\x20Bank\x20-\x20Login</title></head
+SF:><body>\n<h1>Vuln\x20Bank\x20Portal</h1>\n<form\x20method=\"GET\"\x20ac
+SF:tion=\"login\.php\">\nUser\x20ID:\x20<input\x20name=\"id\"\x20value=\"1
+SF:\">\x20<input\x20type=\"submit\"\x20value=\"Lookup\">\n</form>\n<hr><fo
+SF:rm\x20method=\"GET\"\x20action=\"login\.php\">\nUsername:\x20<input\x20
+SF:name=\"user\">\x20Password:\x20<input\x20name=\"pass\"\x20type=\"text\"
+SF:>\x20<input\x20type=\"submit\"\x20value=\"Login\">\n</form></body></htm
+SF:l>\n")%r(HTTPOptions,216,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Mon,\x2026
+SF:\x20Oct\x202026\x2018:55:18\x20GMT\r\nConnection:\x20close\r\nX-Powered
+SF:-By:\x20PHP/8\.4\.27\r\nContent-type:\x20text/html;\x20charset=UTF-8\r\
+SF:n\r\n<!doctype\x20html><html><head><title>Vuln\x20Bank\x20-\x20Login</t
+SF:itle></head><body>\n<h1>Vuln\x20Bank\x20Portal</h1>\n<form\x20method=\"
+SF:GET\"\x20action=\"login\.php\">\nUser\x20ID:\x20<input\x20name=\"id\"\x
+SF:20value=\"1\">\x20<input\x20type=\"submit\"\x20value=\"Lookup\">\n</for
+SF:m>\n<hr><form\x20method=\"GET\"\x20action=\"login\.php\">\nUsername:\x2
+SF:0<input\x20name=\"user\">\x20Password:\x20<input\x20name=\"pass\"\x20ty
+SF:pe=\"text\">\x20<input\x20type=\"submit\"\x20value=\"Login\">\n</form><
+SF:/body></html>\n")%r(FourOhFourRequest,216,"HTTP/1\.0\x20200\x20OK\r\nDa
+SF:te:\x20Mon,\x2026\x20Oct\x202026\x2018:55:18\x20GMT\r\nConnection:\x20c
+SF:lose\r\nX-Powered-By:\x20PHP/8\.4\.27\r\nContent-type:\x20text/html;\x2
+SF:0charset=UTF-8\r\n\r\n<!doctype\x20html><html><head><title>Vuln\x20Bank
+SF:\x20-\x20Login</title></head><body>\n<h1>Vuln\x20Bank\x20Portal</h1>\n<
+SF:form\x20method=\"GET\"\x20action=\"login\.php\">\nUser\x20ID:\x20<input
+SF:\x20name=\"id\"\x20value=\"1\">\x20<input\x20type=\"submit\"\x20value=\
+SF:"Lookup\">\n</form>\n<hr><form\x20method=\"GET\"\x20action=\"login\.php
+SF:\">\nUsername:\x20<input\x20name=\"user\">\x20Password:\x20<input\x20na
+SF:me=\"pass\"\x20type=\"text\">\x20<input\x20type=\"submit\"\x20value=\"L
+SF:ogin\">\n</form></body></html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8545-TCP:V=7.95%I=7%D=10/26%Time=6ADFA21B%P=x86_64-pc-linux-gnu%r(G
+SF:etRequest,1A2,"HTTP/1\.1\x20200\x20OK\r\nAccess-Control-Allow-Origin:\x
+SF:20\*\r\nAccess-Control-Request-Method:\x20\*\r\nAccess-Control-Allow-Me
+SF:thods:\x20OPTIONS,\x20GET\r\nAccess-Control-Allow-Headers:\x20\*\r\nCon
+SF:tent-Type:\x20application/json\r\nDate:\x20Mon,\x2026\x20Oct\x202026\x2
+SF:018:55:23\x20GMT\r\nConnection:\x20close\r\n\r\n{\"jsonrpc\":\"2\.0\",\
+SF:"id\":null,\"error\":{\"code\":-32700,\"message\":\"Parse\x20error:\x20
+SF:Unexpected\x20end\x20of\x20JSON\x20input\",\"data\":{\"message\":\"Pars
+SF:e\x20error:\x20Unexpected\x20end\x20of\x20JSON\x20input\"}}}")%r(HTTPOp
+SF:tions,DA,"HTTP/1\.1\x20200\x20OK\r\nAccess-Control-Allow-Origin:\x20\*\
+SF:r\nAccess-Control-Request-Method:\x20\*\r\nAccess-Control-Allow-Methods
+SF::\x20OPTIONS,\x20GET\r\nAccess-Control-Allow-Headers:\x20\*\r\nDate:\x2
+SF:0Mon,\x2026\x20Oct\x202026\x2018:55:23\x20GMT\r\nConnection:\x20close\r
+SF:\n\r\n")%r(RTSPRequest,DA,"HTTP/1\.1\x20200\x20OK\r\nAccess-Control-All
+SF:ow-Origin:\x20\*\r\nAccess-Control-Request-Method:\x20\*\r\nAccess-Cont
+SF:rol-Allow-Methods:\x20OPTIONS,\x20GET\r\nAccess-Control-Allow-Headers:\
+SF:x20\*\r\nDate:\x20Mon,\x2026\x20Oct\x202026\x2018:55:23\x20GMT\r\nConne
+SF:ction:\x20close\r\n\r\n")%r(RPCCheck,2F,"HTTP/1\.1\x20400\x20Bad\x20Req
+SF:uest\r\nConnection:\x20close\r\n\r\n")%r(DNSVersionBindReqTCP,2F,"HTTP/
+SF:1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(DNSSt
+SF:atusRequestTCP,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x2
+SF:0close\r\n\r\n")%r(Help,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConne
+SF:ction:\x20close\r\n\r\n")%r(SSLSessionReq,2F,"HTTP/1\.1\x20400\x20Bad\x
+SF:20Request\r\nConnection:\x20close\r\n\r\n")%r(TerminalServerCookie,2F,"
+SF:HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n")%r(
+SF:TLSSessionReq,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20
+SF:close\r\n\r\n")%r(Kerberos,2F,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCo
+SF:nnection:\x20close\r\n\r\n")%r(SMBProgNeg,2F,"HTTP/1\.1\x20400\x20Bad\x
+SF:20Request\r\nConnection:\x20close\r\n\r\n")%r(X11Probe,2F,"HTTP/1\.1\x2
+SF:0400\x20Bad\x20Request\r\nConnection:\x20close\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8791-TCP:V=7.95%I=7%D=10/26%Time=6ADFA216%P=x86_64-pc-linux-gnu%r(G
+SF:enericLines,1C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n\r\n")%r(GetReque
+SF:st,1C,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n\r\n")%r(HTTPOptions,1C,"H
+SF:TTP/1\.1\x20400\x20Bad\x20Request\r\n\r\n")%r(RTSPRequest,1C,"HTTP/1\.1
+SF:\x20400\x20Bad\x20Request\r\n\r\n")%r(FourOhFourRequest,1C,"HTTP/1\.1\x
+SF:20400\x20Bad\x20Request\r\n\r\n")%r(SIPOptions,1C,"HTTP/1\.1\x20400\x20
+SF:Bad\x20Request\r\n\r\n");
+Service Info: OS: linux
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 139.77 seconds

@@ -1,0 +1,4 @@
+api2.cursor.sh
+api3.cursor.sh
+example.com
+sand-box-stores.s3.us-east-1.amazonaws.com
