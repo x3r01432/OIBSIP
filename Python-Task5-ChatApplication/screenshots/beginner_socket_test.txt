@@ -1,0 +1,12 @@
+=== server ===
+Chat server listening on 127.0.0.1:5555
+=== Alice ===
+Connected. Type messages, /quit to exit.
+[11:05] You: Hello Bob
+[11:05] Bob: Hi Alice!
+[11:06] *** Bob disconnected ***
+=== Bob ===
+Connected. Type messages, /quit to exit.
+[11:05] *** Alice joined the chat ***
+[11:05] Alice: Hello Bob
+[11:05] You: Hi Alice!

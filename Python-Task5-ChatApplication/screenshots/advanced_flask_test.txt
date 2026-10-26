@@ -1,0 +1,4 @@
+register: 302
+create room: /room/interns
+history: [{'body': 'Hello team 👋 🚀', 'id': 1, 'room': 'interns', 'ts': '11:06', 'username': 'steven'}]
+bad login: True

@@ -1,0 +1,4 @@
+{
+  "open github": {"action": "open", "target": "https://github.com/x3r01432"},
+  "who made you": {"action": "say", "target": "I was built by Steven Rios for the Oasis Infobyte internship."}
+}

@@ -1,0 +1,12 @@
+Assistant: Hi, I'm your assistant. How can I help?
+You: Assistant: Hello! How can I help you today?
+You: Assistant: It's 11:07 AM.
+You: Assistant: Today is Monday, October 26, 2026.
+You: Assistant: In Paris it is 13 degrees Celsius with 90 percent humidity and wind at 10.8 kilometres per hour.
+You: Assistant: Searching the web for oasis infobyte internship.
+You: Assistant: Okay, I'll remind you in 2 seconds.
+You: Assistant: The capital of France is Paris.
+You: Assistant: Augusta Ada King, Countess of Lovelace, also known as Ada Lovelace, was an English mathematician and writer chiefly known for work on Charles Babbage's proposed mechanical general-purpose computer, the analytical engine.
+You: Assistant: I was built by Steven Rios for the Oasis Infobyte internship.
+You: Assistant: Goodbye!
+Assistant: Reminder: stretch

@@ -1,0 +1,11 @@
+Enter city name: 
+Weather for Austin, United States
+  Temperature : 25.0 °C / 77.0 °F
+  Humidity    : 53%
+  Condition   : Overcast
+  Wind speed  : 7.3 km/h
+
+--- empty input ---
+Enter city name: Error: city cannot be empty.
+--- bad city ---
+Enter city name: Error: City 'Zzqxqxville' not found.

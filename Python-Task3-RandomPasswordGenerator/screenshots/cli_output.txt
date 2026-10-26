@@ -1,0 +1,6 @@
+=== Random Password Generator ===
+Length (min 8): Types: u=upper l=lower n=numbers s=symbols (e.g. ulns):   Error: Length must be at least 8.
+Length (min 8): Types: u=upper l=lower n=numbers s=symbols (e.g. ulns):   Error: Select at least 2 character types.
+Length (min 8): Types: u=upper l=lower n=numbers s=symbols (e.g. ulns): Password: HAXpdPybZOJE
+Generate another? (y/n): Length (min 8): Types: u=upper l=lower n=numbers s=symbols (e.g. ulns): Password: ]Ljc6~Qbnrp^l+6DEiN1
+Generate another? (y/n): 

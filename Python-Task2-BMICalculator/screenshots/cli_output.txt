@@ -1,0 +1,4 @@
+=== BMI Calculator ===
+Weight (kg):   Error: please enter a number (e.g. 70 or 1.75).
+Weight (kg):   Error: value must be greater than zero.
+Weight (kg): Height (m): Your BMI is 22.86 -> Normal

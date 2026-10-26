@@ -1,0 +1,5 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>PyChat Login</title>
+<style>body{font-family:sans-serif;display:grid;place-items:center;height:100vh;background:#eef}form{background:#fff;padding:2rem;border-radius:8px}input,button{display:block;margin:.5rem 0;padding:.5rem;width:220px}.err{color:red}</style></head>
+<body><form method="post"><h2>💬 PyChat</h2>{% if error %}<p class="err">{{error}}</p>{% endif %}
+<input name="username" placeholder="Username" required><input name="password" type="password" placeholder="Password" required>
+<button name="action" value="login">Login</button><button name="action" value="register">Register</button></form></body></html>
