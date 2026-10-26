@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+<rect width="1080" height="1080" fill="#023047"/><path transform="translate(170,760) scale(0.6)" d="M0,-40 C14,-18 26,-4 26,12 A26,26 0 0 1 -26,12 C-26,-4 -14,-18 0,-40Z" fill="#8ECAE6" opacity="0.5"/><path transform="translate(930,180) scale(0.8)" d="M0,-40 C14,-18 26,-4 26,12 A26,26 0 0 1 -26,12 C-26,-4 -14,-18 0,-40Z" fill="#8ECAE6" opacity="0.4"/><path transform="translate(980,330) scale(0.5)" d="M0,-40 C14,-18 26,-4 26,12 A26,26 0 0 1 -26,12 C-26,-4 -14,-18 0,-40Z" fill="#8ECAE6" opacity="0.3"/><path transform="translate(120,600) scale(0.4)" d="M0,-40 C14,-18 26,-4 26,12 A26,26 0 0 1 -26,12 C-26,-4 -14,-18 0,-40Z" fill="#8ECAE6" opacity="0.35"/>
+<!-- custom illustration: tap with a falling drop and ripple -->
+<g transform="translate(300,40)">
+  <rect x="0" y="40" width="260" height="70" rx="20" fill="#8ECAE6"/><rect x="190" y="40" width="70" height="170" rx="20" fill="#8ECAE6"/>
+  <rect x="90" y="0" width="80" height="40" rx="10" fill="#FFB703"/><rect x="40" y="-14" width="180" height="24" rx="12" fill="#FFB703"/>
+  <rect x="-40" y="52" width="50" height="46" rx="8" fill="#8ECAE6"/>
+  <path transform="translate(225,280) scale(1.4)" d="M0,-40 C14,-18 26,-4 26,12 A26,26 0 0 1 -26,12 C-26,-4 -14,-18 0,-40Z" fill="#FFFFFF"/>
+  <ellipse cx="225" cy="360" rx="110" ry="18" fill="none" stroke="#8ECAE6" stroke-width="5"/><ellipse cx="225" cy="360" rx="170" ry="30" fill="none" stroke="#8ECAE6" stroke-width="3" opacity=".6"/>
+</g>
+<text x="540" y="590" text-anchor="middle" font-family="Bebas Neue" font-size="150" fill="#FFFFFF" letter-spacing="2">EVERY DROP COUNTS</text>
+<text x="540" y="652" text-anchor="middle" font-family="Poppins" font-weight="600" font-size="38" fill="#FFB703">One drip per second = 3,000+ gallons a year.</text>
+<text text-anchor="middle" font-family="Inter" font-size="30" fill="#8ECAE6"><tspan x="540" y="730">Check taps &amp; toilets for leaks · shorter showers</tspan><tspan x="540" y="772">water plants in the cool of the morning</tspan></text>
+<rect x="300" y="840" width="480" height="90" rx="45" fill="#FFB703"/>
+<text x="540" y="899" text-anchor="middle" font-family="Poppins" font-weight="700" font-size="34" fill="#023047">Take the 7-day pledge</text>
+<text x="540" y="1010" text-anchor="middle" font-family="Inter" font-size="22" fill="#8ECAE6">#EveryDropCounts · Source: US EPA WaterSense, “Fix a Leak Week”</text>
+</svg>

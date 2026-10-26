@@ -1,0 +1,175 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Verdant Quarterly</title>
+<style>
+@page { size: A4; margin: 0; }
+:root{--deep:#1B4332;--leaf:#40916C;--mint:#D8F3DC;--amber:#F4A261;--ink:#1b2a22;}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+body{font-family:'Inter',sans-serif;color:var(--ink);}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:#fff;}
+.page:last-child{page-break-after:auto;}
+/* running header/footer */
+.rhead{position:absolute;top:10mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;
+  font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:2px;text-transform:uppercase;color:var(--leaf);border-bottom:.4pt solid var(--leaf);padding-bottom:3mm;z-index:5;}
+.rhead.light{color:var(--mint);border-color:rgba(216,243,220,.5);}
+.rfoot{position:absolute;bottom:10mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;
+  font-family:'Poppins',sans-serif;font-size:8pt;letter-spacing:1px;color:var(--leaf);border-top:.4pt solid var(--leaf);padding-top:2.5mm;z-index:5;}
+.rfoot.light{color:var(--mint);border-color:rgba(216,243,220,.5);}
+.pn{font-weight:700;}
+.content{position:absolute;top:26mm;left:16mm;right:16mm;bottom:20mm;}
+.col2{column-count:2;column-gap:9mm;}
+h1.kicker{font-family:'Poppins',sans-serif;font-size:9pt;letter-spacing:4px;color:var(--amber);text-transform:uppercase;margin-bottom:4mm;}
+h2.head{font-family:'Poppins',sans-serif;font-weight:800;font-size:34pt;line-height:1.03;color:var(--deep);margin-bottom:5mm;}
+h3{font-family:'Poppins',sans-serif;font-weight:700;font-size:14pt;color:var(--deep);margin:5mm 0 2mm;break-after:avoid;}
+p{font-size:10.5pt;line-height:1.5;margin-bottom:3.2mm;text-align:justify;hyphens:auto;}
+.drop::first-letter{font-family:'Playfair Display',serif;font-size:46pt;float:left;line-height:.8;padding:2mm 2mm 0 0;color:var(--leaf);font-weight:700;}
+.pull{font-family:'Playfair Display',serif;font-size:21pt;line-height:1.25;color:var(--leaf);font-style:italic;
+  border-left:3pt solid var(--amber);padding:3mm 0 3mm 6mm;margin:5mm 0;break-inside:avoid;}
+.full{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(27,67,50,.82) 0%,rgba(27,67,50,.15) 45%,rgba(27,67,50,0) 70%);}
+.cover-ttl{position:absolute;left:16mm;bottom:40mm;right:16mm;color:#fff;z-index:4;}
+.cover-ttl .big{font-family:'Playfair Display',serif;font-weight:800;font-size:56pt;line-height:1;color:var(--mint);}
+.cover-ttl .sub{font-family:'Poppins',sans-serif;font-size:12pt;letter-spacing:1px;margin-top:4mm;max-width:120mm;}
+.masthead{position:absolute;top:16mm;left:16mm;right:16mm;display:flex;justify-content:space-between;align-items:center;color:#fff;z-index:4;font-family:'Poppins',sans-serif;}
+.masthead .issue{font-size:9pt;letter-spacing:3px;text-transform:uppercase;}
+.cap{position:absolute;bottom:10mm;left:16mm;color:var(--mint);font-size:7.5pt;z-index:4;font-family:'Poppins',sans-serif;letter-spacing:1px;}
+.statrow{display:flex;gap:6mm;margin:4mm 0;break-inside:avoid;}
+.stat{flex:1;background:var(--mint);border-radius:3mm;padding:4mm;}
+.stat .n{font-family:'Poppins',sans-serif;font-weight:800;font-size:22pt;color:var(--deep);}
+.stat .l{font-size:8.5pt;color:var(--leaf);}
+.imgbox{break-inside:avoid;margin:4mm 0;}
+.imgbox img{width:100%;border-radius:2mm;display:block;}
+.imgbox .c{font-size:7.5pt;color:var(--leaf);margin-top:1.5mm;font-family:'Poppins',sans-serif;}
+.toc{list-style:none;}
+.toc li{display:flex;align-items:baseline;font-size:11pt;padding:3mm 0;border-bottom:.4pt dotted #bcd;}
+.toc .num{font-family:'Poppins',sans-serif;font-weight:800;color:var(--amber);width:16mm;}
+.toc .t{flex:1;font-family:'Poppins',sans-serif;color:var(--deep);font-weight:600;}
+.toc .pg{color:var(--leaf);font-weight:700;}
+.creditcol{column-count:2;column-gap:9mm;font-size:9pt;}
+.credit-h{font-family:'Poppins',sans-serif;font-weight:700;color:var(--deep);font-size:10pt;margin:4mm 0 1.5mm;break-after:avoid;}
+.credit-h:first-child{margin-top:0;}
+.credit-p{font-size:8.5pt;line-height:1.45;margin-bottom:2mm;color:#2c3a32;break-inside:avoid;}
+a{color:var(--leaf);text-decoration:none;}
+.greenbg{background:var(--deep);}
+</style></head><body>
+
+<!-- PAGE 1 — COVER (full bleed) -->
+<div class="page">
+  <img class="full" src="images/unsplash_10.jpg">
+  <div class="shade"></div>
+  <div class="masthead">
+    <img src="images/logo_reversed.png" style="height:9mm">
+    <span class="issue">Issue 04 · Autumn 2026</span>
+  </div>
+  <div class="cover-ttl">
+    <div class="big">Verdant<br>Quarterly</div>
+    <div class="sub">The journal of everyday ecology — small habits, measurable impact, and the quiet return of green cities.</div>
+  </div>
+  <div class="cap">Cover: boreal lake at first light · Photo: Paul Jarvis / Unsplash</div>
+</div>
+
+<!-- PAGE 2 — CONTENTS + EDITOR -->
+<div class="page">
+  <div class="rhead"><span>Verdant Quarterly · Issue 04</span><span>Contents</span></div>
+  <div class="content">
+    <h1 class="kicker">In this issue</h1>
+    <h2 class="head">Contents</h2>
+    <ul class="toc">
+      <li><span class="num">03</span><span class="t">The Return of the Urban Forest</span><span class="pg">p.3</span></li>
+      <li><span class="num">04</span><span class="t">Field Notes: A Season of Water</span><span class="pg">p.4</span></li>
+      <li><span class="num">05</span><span class="t">The Balcony Experiment — Photo Essay</span><span class="pg">p.5</span></li>
+      <li><span class="num">06</span><span class="t">Credits &amp; Masthead</span><span class="pg">p.6</span></li>
+    </ul>
+    <h3 style="margin-top:12mm">From the editor</h3>
+    <p class="drop">Green is not a colour in this magazine so much as a measurement. Over the last year our contributors tracked the small, repeatable things — a swapped seedling, a litre of water saved, a verge left to grow wild — and found that they add up far faster than the headlines suggest. This issue gathers those findings into four short dispatches from the places where ecology meets the everyday.</p>
+    <p>We keep the design deliberately plain: one grid, one family of greens, and photographs that do the talking. If a single idea travels from these pages to your street, balcony, or window box, the issue has done its work.</p>
+    <div class="statrow">
+      <div class="stat"><div class="n">31.9%</div><div class="l">of world electricity now renewable (2024)</div></div>
+      <div class="stat"><div class="n">×2,100</div><div class="l">growth in global solar since 2000</div></div>
+    </div>
+  </div>
+  <div class="rfoot"><span>verdant.app</span><span class="pn">2</span></div>
+</div>
+
+<!-- PAGE 3 — FEATURE with pull quote -->
+<div class="page">
+  <div class="rhead"><span>Feature</span><span>Verdant Quarterly · Issue 04</span></div>
+  <div class="content">
+    <h1 class="kicker">Feature</h1>
+    <h2 class="head">The Return of the Urban Forest</h2>
+    <div class="col2">
+      <p class="drop">For most of the twentieth century a tree in a city was decoration. Today it is infrastructure. Planners now price a mature street tree the way they price a storm drain or a length of pavement, because it does measurable work: it cools the air, soaks up rainfall, filters particulates, and quietly lowers the energy a neighbourhood burns through in summer.</p>
+      <p>The shift is partly climatic and partly arithmetic. A dense canopy can hold surface temperatures several degrees below a bare street on a hot afternoon, which turns directly into fewer hours of air-conditioning and a flatter evening demand curve on the grid.</p>
+      <div class="imgbox"><img src="images/unsplash_28.jpg"><div class="c">Mixed broadleaf canopy over a slow river · Jerry Adney / Unsplash</div></div>
+      <p>Water is the other half of the story. A single established tree intercepts thousands of litres of rainfall a year, slowing it before it ever reaches an overwhelmed drain. Multiply that across a planted boulevard and the city has, in effect, built a soft reservoir that also happens to be beautiful.</p>
+      <p class="pull">“A street tree is the cheapest piece of climate infrastructure a city will ever install — and the only one that grows more valuable every year.”</p>
+      <p>None of this requires heroics. The cities making the fastest progress are the ones that simply stopped paving over their verges, let a few corners grow wild, and planted species suited to the street rather than the catalogue. The forest, it turns out, is happy to come back on its own — it just needs to be let in.</p>
+      <p>What remains is maintenance and patience. A canopy is a thirty-year project measured in seasons, not quarters, and the neighbourhoods that commit early are the ones that will be noticeably cooler, quieter, and cheaper to run by the time the next generation inherits them.</p>
+    </div>
+  </div>
+  <div class="rfoot"><span>The Return of the Urban Forest</span><span class="pn">3</span></div>
+</div>
+
+<!-- PAGE 4 — FIELD NOTES -->
+<div class="page">
+  <div class="rhead"><span>Field Notes</span><span>Verdant Quarterly · Issue 04</span></div>
+  <div class="content">
+    <h1 class="kicker">Field Notes</h1>
+    <h2 class="head">A Season of Water</h2>
+    <div class="col2">
+      <p class="drop">The simplest conservation story is still water, and the numbers are stubbornly persuasive. A standard household can save thousands of litres a year by fixing leaks and switching to efficient fixtures — no lifestyle change required, only attention.</p>
+      <p>This season our readers logged their own habits. The pattern was clear: the biggest wins came not from dramatic sacrifice but from removing small, constant waste — a dripping tap, an over-long shower, a garden watered at noon.</p>
+      <div class="imgbox"><img src="images/unsplash_106.jpg"><div class="c">Wild pink blooms after rain · Arvee Marie / Unsplash</div></div>
+      <h3>Three habits that paid off</h3>
+      <p><b>Water at dawn.</b> Watering before the sun climbs cuts evaporation sharply, so more of every litre reaches the roots instead of the air.</p>
+      <p><b>Catch the rain.</b> A single barrel under a downpipe captures enough to carry a small garden through a dry fortnight.</p>
+      <p><b>Fix the drip.</b> A tap that drips once a second wastes thousands of litres a year — the fastest payback in the house.</p>
+      <div class="statrow">
+        <div class="stat"><div class="n">3,000+</div><div class="l">litres a year saved per repaired leak</div></div>
+      </div>
+      <p>Taken together, these small corrections turn a household from a steady leak into a careful system — and they scale: a street that adopts them collectively eases pressure on the same ageing pipes the urban forest is quietly helping to protect.</p>
+    </div>
+  </div>
+  <div class="rfoot"><span>A Season of Water</span><span class="pn">4</span></div>
+</div>
+
+<!-- PAGE 5 — PHOTO ESSAY (full bleed) -->
+<div class="page">
+  <img class="full" src="images/unsplash_152.jpg">
+  <div class="shade"></div>
+  <div class="rhead light"><span>Photo Essay</span><span>Verdant Quarterly · Issue 04</span></div>
+  <div class="cover-ttl" style="bottom:28mm">
+    <div style="font-family:'Poppins';font-size:9pt;letter-spacing:4px;color:var(--amber);text-transform:uppercase;margin-bottom:3mm">Photo Essay</div>
+    <div class="big" style="font-size:40pt">The Balcony<br>Experiment</div>
+    <div class="sub">Five square metres, one summer, and a small riot of petunias — proof that the garden will meet you wherever you make room for it.</div>
+  </div>
+  <div class="cap">Purple petunias in full bloom · Photo: Steven Spassov / Unsplash</div>
+  <div class="rfoot light"><span>The Balcony Experiment</span><span class="pn">5</span></div>
+</div>
+
+<!-- PAGE 6 — CREDITS -->
+<div class="page">
+  <div class="rhead"><span>Verdant Quarterly · Issue 04</span><span>Credits</span></div>
+  <div class="content">
+    <img src="images/logo.png" style="height:11mm;margin-bottom:6mm">
+    <h2 class="head" style="font-size:28pt">Credits &amp; Masthead</h2>
+    <div class="creditcol">
+      <div class="credit-h">Masthead</div>
+      <p class="credit-p"><b>Editor-in-Chief</b> — Maya Okafor<br><b>Design &amp; Art Direction</b> — Steven Manuel Rios<br><b>Contributing Writers</b> — the Verdant field team<br><b>Published by</b> Verdant · verdant.app</p>
+      <div class="credit-h">About this issue</div>
+      <p class="credit-p">Set in Poppins (display), Inter (body) and Playfair Display (quotes &amp; cover). Printed on a four-colour grid: Deep #1B4332, Leaf #40916C, Mint #D8F3DC, Amber #F4A261.</p>
+      <div class="credit-h">Photography</div>
+      <p class="credit-p">All photographs via Unsplash under the Unsplash License.</p>
+      <p class="credit-p">p.1 Cover — Paul Jarvis · unsplash.com/photos/6J--NXulQCs</p>
+      <p class="credit-p">p.3 Urban forest — Jerry Adney · unsplash.com/photos/_WiFMBRT7Aw</p>
+      <p class="credit-p">p.4 Pink blooms — Arvee Marie · unsplash.com/photos/YnfGtpt2gf4</p>
+      <p class="credit-p">p.5 Petunias — Steven Spassov · unsplash.com/photos/tVIqMgGlAG0</p>
+      <p class="credit-p">Back cover — Cas Cornelissen · unsplash.com/photos/G2UTNecskWg</p>
+      <div class="credit-h">Data</div>
+      <p class="credit-p">Electricity and renewables figures: Our World in Data — Energy dataset (owid/energy-data), based on Ember (2025) and the Energy Institute Statistical Review of World Energy (2025). Water-saving figures: U.S. EPA WaterSense.</p>
+      <div class="credit-h">Notice</div>
+      <p class="credit-p">Verdant Quarterly is a fictional publication produced as a magazine-layout design exercise for the Oasis Infobyte internship (OIBSIP). Brand, people and advertising are illustrative.</p>
+    </div>
+  </div>
+  <div class="rfoot"><span>© 2026 Verdant · verdant.app</span><span class="pn">6</span></div>
+</div>
+
+</body></html>
