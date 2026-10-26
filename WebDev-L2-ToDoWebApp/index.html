@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do App</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="app">
+<h1>My To-Do List</h1>
+<form id="addForm" class="add"><input type="text" id="taskInput" placeholder="Add a task..." autocomplete="off"><button type="submit">Add Task</button></form>
+<section><h2>Pending <span id="pendingCount" class="count">0</span></h2><ul id="pendingList"></ul><p id="pendingEmpty" class="empty">No pending tasks. Nice work!</p></section>
+<section><h2>Completed <span id="completedCount" class="count">0</span></h2><ul id="completedList"></ul><p id="completedEmpty" class="empty">Nothing completed yet.</p></section>
+</main><script src="script.js"></script></body></html>

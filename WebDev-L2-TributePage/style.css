@@ -1,0 +1,18 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;color:#2d2a32;background:#f7f3ef;line-height:1.7}
+.hero{background:#4a148c;color:#fff;text-align:center;padding:4rem 1rem}
+.hero h1{font-size:3rem}.tagline{font-style:italic;font-size:1.2rem;margin-top:.5rem}
+main{max-width:800px;margin:0 auto;padding:2rem 1.5rem}
+.portrait{text-align:center;margin-bottom:2rem}
+.portrait img{max-width:100%;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.2)}
+figcaption{font-size:.85rem;color:#666;margin-top:.5rem}
+h2{font-family:'Segoe UI',sans-serif;color:#4a148c;margin:2rem 0 1rem}
+.bio{background:#fff;padding:1.5rem;border-radius:8px}
+.bio p{margin-bottom:1rem}
+.timeline{background:#ede7f6;padding:1.5rem;border-radius:8px;margin-top:1.5rem}
+.timeline li{list-style:none;padding:.5rem 0;border-bottom:1px solid #d1c4e9}
+.quote{margin:2rem 0}
+blockquote{font-size:1.4rem;font-style:italic;border-left:5px solid #4a148c;padding-left:1.5rem;color:#4a148c}
+cite{display:block;font-size:1rem;margin-top:.5rem;color:#555}
+footer{background:#4a148c;color:#fff;text-align:center;padding:1.5rem;font-family:'Segoe UI',sans-serif;font-size:.9rem}
+@media(max-width:600px){.hero h1{font-size:2rem}}

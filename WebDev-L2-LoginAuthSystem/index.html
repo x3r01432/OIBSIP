@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login / Register</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="card">
+<div class="tabs"><button id="tabLogin" class="active">Login</button><button id="tabReg">Register</button></div>
+<form id="loginForm">
+<h2>Login</h2>
+<input type="text" id="lUser" placeholder="Username or email">
+<input type="password" id="lPass" placeholder="Password">
+<button type="submit">Login</button><p id="lMsg" class="msg"></p></form>
+<form id="regForm" class="hidden">
+<h2>Register</h2>
+<input type="text" id="rUser" placeholder="Username or email">
+<input type="password" id="rPass" placeholder="Password (min 8 chars, 1 number)">
+<button type="submit">Register</button><p id="rMsg" class="msg"></p></form>
+</div><script src="auth.js"></script></body></html>

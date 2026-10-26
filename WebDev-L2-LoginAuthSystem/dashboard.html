@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="card">
+<h2>Dashboard</h2><p id="welcome"></p>
+<p>This is a protected page. You can only see it while logged in.</p>
+<button id="logout">Logout</button></div>
+<script>
+if(!sessionStorage.getItem('authUser'))location.href='index.html';
+document.getElementById('welcome').textContent='Welcome, '+sessionStorage.getItem('authUser')+'!';
+document.getElementById('logout').onclick=()=>{sessionStorage.removeItem('authUser');location.href='index.html';};
+</script></body></html>
