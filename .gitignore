@@ -4,3 +4,4 @@ __pycache__/
 node_modules/
 .venv/
 *.class
+DataAnalytics-L2-FraudDetection/data/creditcard.csv

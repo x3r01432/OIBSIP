@@ -1,0 +1,917 @@
+passenger_id,survived,pclass,sex,age,sibsp,parch,fare,embarked,class,who,adult_male,deck,embark_town,alive,alone,booking_date
+312.0,1,1,female ,18.0,2,2,$262.38,C,First,woman,False,B,Cherbourg,yes,False,1912-02-18
+686.0,0,2,m,25.0,1,2,41.5792,C,Second,man,True,,Cherbourg,no,False,1912-03-28
+566.0,0,3,male,24.0,2,0,$24.15,S,Third,man,True,,Southampton,no,False,"January 21, 1912"
+309.0,0,2,male,30.0,1,0,$24.00,C,Second,man,True,,Cherbourg,no,False,1912-01-30
+785.0,0,3,m,25.0,0,0,7.05,S,Third,man,True,,Southampton,no,True,1912-02-05
+375.0,0,3,F,3.0,3,1,$21.07,S,Third,child,False,,Southampton,no,False,"February 29, 1912"
+38.0,0,3,m,21.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,25/01/1912
+465.0,0,3,Male,,0,0,8.05,S,Third,man,True,,Southampton,no,True,13/02/1912
+193.0,1,3,female,19.0,1,0,7.8542,S,Third,woman,False,,Southampton,yes,False,"March 12, 1912"
+69.0,1,3,female ,17.0,4,2,7.925,S,Third,woman,False,,Southampton,yes,False,1912-03-19
+573.0,1,1,Male,36.0,0,0,26.3875,S,First,man,True,E,Southampton,yes,True,1912-03-18
+16.0,1,2,female ,55.0,0,0,16.0,S,Second,woman,False,,Southampton,yes,True,"February 29, 1912"
+159.0,0,3,Male,,0,0,$8.66,S,Third,man,True,,Southampton,no,True,1912-02-19
+249.0,1,1,male,37.0,1,1,$52.55,S,First,man,True,D,Southampton,yes,False,"January 14, 1912"
+796.0,0,2,male,39.0,0,0,$13.00,S,Second,man,True,,Southampton,no,True,"March 07, 1912"
+463.0,0,1,male,47.0,0,0,$38.50,S,First,man,True,E,Southampton,no,True,1912-03-21
+873.0,0,1, male,33.0,0,0,5.0,S,First,man,True,B,Southampton,no,True,"March 29, 1912"
+541.0,1,1,F,36.0,0,2,71.0,S,First,woman,False,B,Southampton,yes,False,06/01/1912
+206.0,0,3,F,2.0,0,1,$10.46,S,Third,child,False,G,Southampton,no,False,12/03/1912
+460.0,0,3, male,,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,"March 17, 1912"
+289.0,1,2,Male,42.0,0,0,$13.00,S,Second,man,True,,Southampton,yes,True,07/01/1912
+799.0,0,3, male,30.0,0,0,7.2292,C,Third,man,True,,Cherbourg,no,True,1912-02-09
+21.0,0,2, male,35.0,0,0,26.0,S,Second,man,True,,Southampton,no,True,21/01/1912
+213.0,0,3,male,22.0,0,0,7.25,S,Third,man,True,,Southampton,no,True,1912-04-03
+545.0,0,1,male,50.0,1,0,106.425,C,First,man,True,C,Cherbourg,no,False,"February 12, 1912"
+615.0,0,3,Male,35.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,"February 21, 1912"
+456.0,1,3,m,29.0,0,0,7.8958,C,Third,man,True,,Cherbourg,yes,True,1912-04-04
+144.0,0,3,Male,19.0,0,0,6.75,Q,Third,man,True,,Queenstown,no,True,1912-03-27
+165.0,0,3,Male,1.0,4,1,39.6875,S,Third,child,False,,Southampton,no,False,"January 15, 1912"
+583.0,0,2, male,54.0,0,0,26.0,S,Second,man,True,,Southampton,no,True,25/01/1912
+415.0,1,3,M,44.0,0,0,7.925,S,Third,man,True,,Southampton,yes,True,"January 20, 1912"
+728.0,1,3,F,,0,0,7.7375,Q,Third,woman,False,,Queenstown,yes,True,1912-04-04
+613.0,1,3,female,,1,0,15.5,Q,Third,woman,False,,Queenstown,yes,False,1912-01-17
+552.0,0,2,m,27.0,0,0,$26.00,S,Second,man,True,,Southampton,no,True,"March 10, 1912"
+564.0,0,3,Male,,0,0,8.05,S,Third,man,True,,Southampton,no,True,1912-02-16
+427.0,1,2,Female,28.0,1,0,$26.00,S,Second,woman,False,,Southampton,yes,False,1912-01-10
+432.0,1,3,Female,,1,0,$16.10,S,Third,woman,False,,Southampton,yes,False,"February 15, 1912"
+645.0,1,3,Female,0.75,2,1,19.2583,C,Third,child,False,,Cherbourg,yes,False,1912-02-19
+377.0,1,3,Female,22.0,0,0,7.25,S,Third,woman,False,,Southampton,yes,True,"April 04, 1912"
+66.0,1,3,male,,1,1,15.2458,C,Third,man,True,,Cherbourg,yes,False,27/01/1912
+850.0,1,1,female,,1,0,89.1042,C,First,woman,False,C,Cherbourg,yes,False,1912-01-19
+346.0,1,2,f,24.0,0,0,$13.00,S,Second,woman,False,F,Southampton,yes,True,1912-03-23
+672.0,0,1,Male,31.0,1,0,52.0,S,First,man,True,B,Southampton,no,False,11/02/1912
+722.0,0,3,Male,17.0,1,0,7.0542,S,Third,man,True,,Southampton,no,False,"January 04, 1912"
+609.0,1,2,Female,22.0,1,2,41.5792,C,Second,woman,False,,Cherbourg,yes,False,1912-01-26
+554.0,1,3,male,22.0,0,0,$7.22,C,Third,man,True,,Cherbourg,yes,True,1912-01-15
+847.0,0,3,m,,8,2,69.55,S,Third,man,True,,Southampton,no,False,1912-01-01
+341.0,1,2,m,2.0,1,1,26.0,S,Second,child,False,F,Southampton,yes,False,1912-03-12
+668.0,0,3,male,,0,0,7.775,S,Third,man,True,,Southampton,no,True,28/01/1912
+237.0,0,2, male,44.0,1,0,26.0,S,Second,man,True,,Southampton,no,False,"February 03, 1912"
+170.0,0,3, male,28.0,0,0,56.4958,S,Third,man,True,,Southampton,no,True,"April 04, 1912"
+689.0,0,3,m,18.0,0,0,7.7958,S,Third,man,True,,Southampton,no,True,15/03/1912
+287.0,1,3, male,30.0,0,0,9.5,S,Third,man,True,,Southampton,yes,True,1912-03-16
+161.0,0,3,M,44.0,0,1,16.1,S,Third,man,True,,Southampton,no,False,02/02/1912
+733.0,0,2, male,,0,0,0.0,S,Second,man,True,,Southampton,no,True,"January 16, 1912"
+143.0,1,3,female,24.0,1,0,15.85,S,Third,woman,False,,Southampton,yes,False,"January 18, 1912"
+570.0,1,3,m,32.0,0,0,$7.85,S,Third,man,True,,Southampton,yes,True,11/02/1912
+194.0,1,2,male,3.0,1,1,26.0,S,Second,child,False,F,Southampton,yes,False,09/03/1912
+8.0,0,3,Male,2.0,3,1,21.075,S,Third,child,False,,Southampton,no,False,01/02/1912
+667.0,0,2, male,25.0,0,0,$13.00,S,Second,man,True,,Southampton,no,True,1912-01-28
+839.0,1,3,M,32.0,0,0,56.4958,S,Third,man,True,,Southampton,yes,True,"January 04, 1912"
+536.0,1,2,Female,7.0,0,2,26.25,S,Second,child,False,,Southampton,yes,False,1912-03-02
+651.0,0,3,Male,,0,0,$7.90,S,Third,man,True,,Southampton,no,True,"February 04, 1912"
+180.0,0,3,Male,36.0,0,0,$0.00,S,Third,man,True,,Southampton,no,True,"February 07, 1912"
+523.0,0,3,male,,0,0,$7.22,C,Third,man,True,,Cherbourg,no,True,"February 23, 1912"
+471.0,0,3,Male,,0,0,7.25,S,Third,man,True,,Southampton,no,True,1912-02-01
+357.0,1,1,female ,22.0,0,1,55.0,S,First,woman,False,E,Southampton,yes,False,03/02/1912
+100.0,0,2, male,34.0,1,0,26.0,S,Second,man,True,,Southampton,no,False,1912-01-27
+647.0,0,3, male,19.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,1912-01-24
+622.0,1,1,M,42.0,1,0,$52.55,S,First,man,True,D,Southampton,yes,False,02/04/1912
+419.0,0,2,male,30.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,31/01/1912
+364.0,0,3, male,35.0,0,0,7.05,S,Third,man,True,,Southampton,no,True,27/01/1912
+865.0,0,2, male,24.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,"March 20, 1912"
+815.0,0,3,M,30.5,0,0,8.05,S,Third,man,True,,Southampton,no,True,"March 30, 1912"
+408.0,1,2,male,3.0,1,1,$18.75,S,Second,child,False,,Southampton,yes,False,1912-04-02
+580.0,1,3, male,32.0,0,0,$7.92,S,Third,man,True,,Southampton,yes,True,1912-03-03
+891.0,0,3,m,32.0,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,"January 23, 1912"
+373.0,0,3,male,19.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,"March 21, 1912"
+224.0,0,3, male,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"March 19, 1912"
+519.0,1,2,female ,36.0,1,0,$26.00,S,Second,woman,False,,Southampton,yes,False,"March 22, 1912"
+323.0,1,2,Female,30.0,0,0,12.35,Q,Second,woman,False,,Queenstown,yes,True,1912-01-27
+366.0,0,3, male,30.0,0,0,7.25,S,Third,man,True,,Southampton,no,True,1912-03-25
+882.0,0,3,M,33.0,0,0,$7.90,S,Third,man,True,,Southampton,no,True,1912-03-20
+142.0,1,3,f,22.0,0,0,7.75,S,Third,woman,False,,Southampton,yes,True,21/02/1912
+734.0,0,2,Male,23.0,0,0,$13.00,S,Second,man,True,,Southampton,no,True,15/02/1912
+71.0,0,2, male,32.0,0,0,$10.50,S,Second,man,True,,Southampton,no,True,1912-03-11
+268.0,1,3,Male,25.0,1,0,7.775,S,Third,man,True,,Southampton,yes,False,"February 15, 1912"
+319.0,1,1,female,31.0,0,2,164.8667,S,First,woman,False,C,Southampton,yes,False,14/03/1912
+637.0,0,3,m,32.0,0,0,7.925,S,Third,man,True,,Southampton,no,True,24/02/1912
+102.0,0,3,Male,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,18/03/1912
+695.0,0,1,Male,60.0,0,0,26.55,S,First,man,True,,Southampton,no,True,02/01/1912
+242.0,1,3,female,,1,0,15.5,Q,Third,woman,False,,Queenstown,yes,False,"February 22, 1912"
+380.0,0,3,Male,19.0,0,0,7.775,S,Third,man,True,,Southampton,no,True,"February 23, 1912"
+147.0,1,3,male,27.0,0,0,7.7958,S,Third,man,True,,Southampton,yes,True,1912-03-10
+777.0,0,3,m,,0,0,7.75,Q,Third,man,True,F,Queenstown,no,True,1912-01-20
+779.0,0,3, male,,0,0,7.7375,Q,Third,man,True,,Queenstown,no,True,20/02/1912
+592.0,1,1,female ,52.0,1,0,78.2667,C,First,woman,False,D,Cherbourg,yes,False,"February 04, 1912"
+482.0,0,2,Male,,0,0,0.0,S,Second,man,True,,Southampton,no,True,"March 09, 1912"
+621.0,0,3,M,27.0,1,0,14.4542,C,Third,man,True,,Cherbourg,no,False,"February 20, 1912"
+442.0,0,3, male,20.0,0,0,$9.50,S,Third,man,True,,Southampton,no,True,"February 12, 1912"
+633.0,1,1,Male,32.0,0,0,30.5,C,First,man,True,B,Cherbourg,yes,True,"January 07, 1912"
+186.0,0,1,M,,0,0,50.0,S,First,man,True,A,Southampton,no,True,"January 02, 1912"
+887.0,0,2,Male,27.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,"March 23, 1912"
+574.0,1,3,Female,,0,0,$7.75,Q,Third,woman,False,,Queenstown,yes,True,26/01/1912
+438.0,1,2,female,24.0,2,3,18.75,S,Second,woman,False,,Southampton,yes,False,1912-03-24
+294.0,0,3,female,24.0,0,0,$8.85,S,Third,woman,False,,Southampton,no,True,"January 20, 1912"
+392.0,1,3,m,21.0,0,0,7.7958,S,Third,man,True,,Southampton,yes,True,1912-01-29
+75.0,1,3,M,32.0,0,0,56.4958,S,Third,man,True,,Southampton,yes,True,28/01/1912
+310.0,1,1,f,30.0,0,0,$56.93,C,First,woman,False,E,Cherbourg,yes,True,"March 27, 1912"
+687.0,0,3,Male,14.0,4,1,39.6875,S,Third,child,False,,Southampton,no,False,1912-03-03
+356.0,0,3, male,28.0,0,0,$9.50,S,Third,man,True,,Southampton,no,True,08/02/1912
+654.0,1,3,female,,0,0,$7.83,Q,Third,woman,False,,Queenstown,yes,True,07/03/1912
+173.0,1,3,F,1.0,1,1,11.1333,S,Third,child,False,,Southampton,yes,False,21/03/1912
+85.0,1,2,female,17.0,0,0,$10.50,S,Second,woman,False,,Southampton,yes,True,1912-04-03
+830.0,1,1,F,62.0,0,0,80.0,,First,woman,False,B,,yes,True,"February 20, 1912"
+514.0,1,1,female,54.0,1,0,$59.40,C,First,woman,False,,Cherbourg,yes,False,27/01/1912
+639.0,0,3,female,41.0,0,5,$39.69,S,Third,woman,False,,Southampton,no,False,"January 26, 1912"
+816.0,0,1, male,,0,0,0.0,S,First,man,True,B,Southampton,no,True,"March 22, 1912"
+625.0,0,3, male,21.0,0,0,16.1,S,Third,man,True,,Southampton,no,True,"January 24, 1912"
+4.0,1,1,female ,35.0,1,0,53.1,S,First,woman,False,C,Southampton,yes,False,1912-04-01
+68.0,0,3,male,19.0,0,0,8.1583,S,Third,man,True,,Southampton,no,True,"February 15, 1912"
+526.0,0,3,male,40.5,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,10/01/1912
+748.0,1,2,female ,30.0,0,0,13.0,S,Second,woman,False,,Southampton,yes,True,"January 30, 1912"
+487.0,1,1,female ,35.0,1,0,90.0,S,First,woman,False,C,Southampton,yes,False,"March 30, 1912"
+233.0,0,2,m,59.0,0,0,13.5,S,Second,man,True,,Southampton,no,True,1912-01-11
+638.0,0,2,male,31.0,1,1,26.25,S,Second,man,True,,Southampton,no,False,"March 14, 1912"
+627.0,0,2,male,57.0,0,0,12.35,Q,Second,man,True,,Queenstown,no,True,08/03/1912
+512.0,0,3,M,,0,0,8.05,S,Third,man,True,,Southampton,no,True,1912-01-02
+729.0,0,2,m,25.0,1,0,26.0,S,Second,man,True,,Southampton,no,False,1912-01-19
+184.0,1,2, male,1.0,2,1,$39.00,S,Second,child,False,F,Southampton,yes,False,1912-02-17
+331.0,1,3,female ,,2,0,23.25,Q,Third,woman,False,,Queenstown,yes,False,"March 09, 1912"
+794.0,0,1,m,,0,0,30.6958,C,First,man,True,,Cherbourg,no,True,"March 19, 1912"
+138.0,0,1, male,37.0,1,0,53.1,S,First,man,True,C,Southampton,no,False,17/03/1912
+110.0,1,3,Female,,1,0,$24.15,Q,Third,woman,False,,Queenstown,yes,False,"January 11, 1912"
+744.0,0,3,male,24.0,1,0,16.1,S,Third,man,True,,Southampton,no,False,"January 21, 1912"
+846.0,0,3,male,42.0,0,0,7.55,S,Third,man,True,,Southampton,no,True,1912-01-07
+632.0,0,3, male,51.0,0,0,7.0542,S,Third,man,True,,Southampton,no,True,"February 13, 1912"
+826.0,0,3, male,,0,0,6.95,Q,Third,man,True,,Queenstown,no,True,"February 22, 1912"
+129.0,1,3,F,,1,1,22.3583,C,Third,woman,False,F,Cherbourg,yes,False,1912-02-13
+851.0,0,3,m,4.0,4,2,31.275,S,Third,child,False,,Southampton,no,False,"January 20, 1912"
+509.0,0,3,Male,28.0,0,0,22.525,S,Third,man,True,,Southampton,no,True,"January 31, 1912"
+819.0,0,3,M,43.0,0,0,6.45,S,Third,man,True,,Southampton,no,True,1912-02-26
+410.0,0,3,F,,3,1,$25.47,S,Third,woman,False,,Southampton,no,False,1912-03-03
+386.0,0,2,male,18.0,0,0,73.5,S,Second,man,True,,Southampton,no,True,"February 19, 1912"
+533.0,0,3,m,17.0,1,1,$7.23,C,Third,man,True,,Cherbourg,no,False,1912-01-16
+210.0,1,1, male,40.0,0,0,31.0,C,First,man,True,A,Cherbourg,yes,True,1912-01-15
+676.0,0,3,male,18.0,0,0,$7.78,S,Third,man,True,,Southampton,no,True,1912-01-25
+311.0,1,1,female ,24.0,0,0,$83.16,C,First,woman,False,C,Cherbourg,yes,True,07/02/1912
+525.0,0,3, male,-1.0,0,0,$7.23,C,Third,man,True,,Cherbourg,no,True,22/01/1912
+597.0,1,2,female,,0,0,$33.00,S,Second,woman,False,,Southampton,yes,True,1912-03-14
+251.0,0,3,Male,,0,0,7.25,S,Third,man,True,,Southampton,no,True,1912-02-22
+198.0,0,3,male,42.0,0,1,8.4042,S,Third,man,True,,Southampton,no,False,1912-03-09
+452.0,0,3,male,,1,0,19.9667,S,Third,man,True,,Southampton,no,False,03/04/1912
+820.0,0,3, male,10.0,3,2,$27.90,S,Third,child,False,,Southampton,no,False,30/01/1912
+823.0,0,1, male,38.0,0,0,0.0,S,First,man,True,,Southampton,no,True,1912-03-25
+464.0,0,2,m,48.0,0,0,$13.00,S,Second,man,True,,Southampton,no,True,"January 04, 1912"
+153.0,0,3,M,55.5,0,0,8.05,S,Third,man,True,,Southampton,no,True,19/03/1912
+764.0,1,1,Female,36.0,1,2,120.0,S,First,woman,False,B,Southampton,yes,False,"March 07, 1912"
+430.0,1,3,m,32.0,0,0,$8.05,S,Third,man,True,E,Southampton,yes,True,1912-01-21
+85.0,1,2,female,17.0,0,0,$10.50,S,Second,woman,False,,Southampton,yes,True,1912-04-03
+318.0,0,2,Male,54.0,0,0,$14.00,S,Second,man,True,,Southampton,no,True,01/01/1912
+503.0,0,3,f,,0,0,7.6292,Q,Third,woman,False,,Queenstown,no,True,"January 27, 1912"
+258.0,1,1,female,30.0,0,0,86.5,S,First,woman,False,B,Southampton,yes,True,24/03/1912
+838.0,0,3,m,,0,0,$8.05,S,Third,man,True,,Southampton,no,True,19/01/1912
+696.0,0,2, male,52.0,0,0,13.5,S,Second,man,True,,Southampton,no,True,"March 07, 1912"
+601.0,1,2,Female,24.0,2,1,$27.00,S,Second,woman,False,,Southampton,yes,False,1912-03-01
+708.0,1,1,M,42.0,0,0,26.2875,S,First,man,True,E,Southampton,yes,True,06/01/1912
+505.0,1,1,Female,16.0,0,0,86.5,S,First,woman,False,B,Southampton,yes,True,08/01/1912
+63.0,0,1,Male,45.0,1,0,$83.47,S,First,man,True,C,Southampton,no,False,1912-02-25
+19.0,0,3,female,31.0,1,0,18.0,S,Third,woman,False,,Southampton,no,False,"February 17, 1912"
+663.0,0,1, male,47.0,0,0,25.5875,S,First,man,True,E,Southampton,no,True,02/01/1912
+757.0,0,3,M,28.0,0,0,$7.80,S,Third,man,True,,Southampton,no,True,17/02/1912
+634.0,0,1, male,,0,0,0.0,S,First,man,True,,Southampton,no,True,"January 10, 1912"
+683.0,0,3,Male,20.0,0,0,9.225,S,Third,man,True,,Southampton,no,True,05/02/1912
+837.0,0,3,M,21.0,0,0,8.6625,S,Third,man,True,,Southampton,no,True,"January 23, 1912"
+344.0,0,2,m,25.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,"January 07, 1912"
+23.0,1,3,Female,15.0,0,0,8.0292,Q,Third,child,False,,Queenstown,yes,True,1912-02-06
+227.0,1,2,M,19.0,0,0,$10.50,S,Second,man,True,,Southampton,yes,True,1912-03-02
+513.0,1,1,M,36.0,0,0,26.2875,S,First,man,True,E,Southampton,yes,True,"January 01, 1912"
+678.0,1,3,F,18.0,0,0,9.8417,S,Third,woman,False,,Southampton,yes,True,21/03/1912
+397.0,0,3,F,31.0,0,0,7.8542,S,Third,woman,False,,Southampton,no,True,"January 18, 1912"
+811.0,0,3,male,26.0,0,0,7.8875,S,Third,man,True,,Southampton,no,True,1912-02-26
+35.0,0,1, male,28.0,1,0,$82.17,C,First,man,True,,Cherbourg,no,False,1912-02-28
+348.0,1,3,female,,1,0,16.1,S,Third,woman,False,,Southampton,yes,False,1912-01-16
+398.0,0,2, male,46.0,0,0,$26.00,S,Second,man,True,,Southampton,no,True,23/03/1912
+108.0,1,3,Male,,0,0,$7.78,S,Third,man,True,,Southampton,yes,True,1912-03-30
+590.0,0,3,m,,0,0,8.05,S,Third,man,True,,Southampton,no,True,10/03/1912
+577.0,1,2,Female,34.0,0,0,13.0,S,Second,woman,False,,Southampton,yes,True,1912-03-09
+371.0,1,1,Male,25.0,1,0,55.4417,C,First,man,True,E,Cherbourg,yes,False,"January 14, 1912"
+659.0,0,2,male,23.0,0,0,$13.00,S,Second,man,True,,Southampton,no,True,12/02/1912
+274.0,0,1, male,37.0,0,1,29.7,C,First,man,True,C,Cherbourg,no,False,1912-02-12
+439.0,0,1, male,64.0,1,4,$263.00,S,First,man,True,C,Southampton,no,False,"January 22, 1912"
+401.0,1,3,m,39.0,0,0,7.925,S,Third,man,True,,Southampton,yes,True,14/02/1912
+90.0,0,3,m,24.0,0,0,$8.05,S,Third,man,True,,Southampton,no,True,"January 21, 1912"
+81.0,0,3,M,22.0,0,0,$9.00,S,Third,man,True,,Southampton,no,True,1912-02-28
+618.0,0,3,female,26.0,1,0,16.1,S,Third,woman,False,,Southampton,no,False,29/01/1912
+536.0,1,2,Female,7.0,0,2,26.25,S,Second,child,False,,Southampton,yes,False,1912-03-02
+273.0,1,2,Female,41.0,0,1,19.5,S,Second,woman,False,,Southampton,yes,False,"January 25, 1912"
+31.0,0,1,M,40.0,0,0,27.7208,C,First,man,True,,Cherbourg,no,True,"February 03, 1912"
+11.0,1,3,Female,4.0,1,1,16.7,S,Third,child,False,G,Southampton,yes,False,27/02/1912
+306.0,1,1,m,0.92,1,2,151.55,S,First,child,False,C,Southampton,yes,False,06/01/1912
+183.0,0,3, male,9.0,4,2,31.3875,S,Third,child,False,,Southampton,no,False,1912-02-18
+745.0,1,3,M,31.0,0,0,$7.92,S,Third,man,True,,Southampton,yes,True,09/01/1912
+457.0,0,1, male,65.0,0,0,26.55,S,First,man,True,E,Southampton,no,True,16/03/1912
+383.0,0,3, male,32.0,0,0,$7.92,S,Third,man,True,,Southampton,no,True,16/03/1912
+231.0,1,1,F,35.0,1,0,$83.47,S,First,woman,False,C,Southampton,yes,False,"January 19, 1912"
+158.0,0,3,M,30.0,0,0,$8.05,S,Third,man,True,,Southampton,no,True,1912-01-28
+732.0,0,3,M,11.0,0,0,18.7875,C,Third,child,False,,Cherbourg,no,True,18/03/1912
+679.0,0,3,female,43.0,1,6,46.9,S,Third,woman,False,,Southampton,no,False,1912-01-18
+78.0,0,3, male,,0,0,8.05,S,Third,man,True,,Southampton,no,True,"January 01, 1912"
+572.0,1,1,female,53.0,2,0,51.4792,S,First,woman,False,C,Southampton,yes,False,"March 21, 1912"
+2.0,1,1,f,38.0,1,0,71.2833,C,First,woman,False,C,Cherbourg,yes,False,31/01/1912
+176.0,0,3,Male,18.0,1,1,$7.85,S,Third,man,True,,Southampton,no,False,1912-02-03
+712.0,0,1,male,,0,0,26.55,S,First,man,True,C,Southampton,no,True,1912-03-19
+598.0,0,3,m,49.0,0,0,0.0,S,Third,man,True,,Southampton,no,True,1912-02-01
+685.0,0,2,M,60.0,1,1,$39.00,S,Second,man,True,,Southampton,no,False,"January 16, 1912"
+420.0,0,3,female,10.0,0,2,$24.15,S,Third,child,False,,Southampton,no,False,1912-02-02
+5.0,0,3,M,35.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,1912-02-06
+424.0,0,3,Female,28.0,1,1,$14.40,S,Third,woman,False,,Southampton,no,False,"February 04, 1912"
+199.0,1,3,female ,,0,0,7.75,Q,Third,woman,False,,Queenstown,yes,True,16/03/1912
+117.0,0,3,M,70.5,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,14/02/1912
+831.0,1,3,female,15.0,1,0,14.4542,C,Third,child,False,,Cherbourg,yes,False,"March 30, 1912"
+789.0,1,3,Male,1.0,1,2,$20.57,S,Third,child,False,,Southampton,yes,False,1912-03-05
+205.0,1,3,m,18.0,0,0,8.05,S,Third,man,True,,Southampton,yes,True,18/02/1912
+232.0,0,3,m,29.0,0,0,7.775,S,Third,man,True,,Southampton,no,True,1912-02-12
+175.0,0,1,male,56.0,0,0,$30.70,C,First,man,True,A,Cherbourg,no,True,05/03/1912
+448.0,1,1,m,34.0,0,0,26.55,S,First,man,True,,Southampton,yes,True,14/01/1912
+578.0,1,1,f,39.0,1,0,55.9,S,First,woman,False,E,Southampton,yes,False,"March 24, 1912"
+72.0,0,3,Female,16.0,5,2,46.9,S,Third,woman,False,,Southampton,no,False,03/04/1912
+214.0,0,2,M,30.0,0,0,$13.00,S,Second,man,True,,Southampton,no,True,"February 06, 1912"
+203.0,0,3,male,34.0,0,0,$6.50,S,Third,man,True,,Southampton,no,True,03/02/1912
+376.0,1,1,female,,1,0,$82.17,C,First,woman,False,,Cherbourg,yes,False,"March 01, 1912"
+843.0,1,1,F,30.0,0,0,31.0,C,First,woman,False,,Cherbourg,yes,True,1912-01-07
+120.0,0,3,F,2.0,4,2,31.275,S,Third,child,False,,Southampton,no,False,"January 20, 1912"
+178.0,0,1,F,50.0,0,0,$28.71,C,First,woman,False,C,Cherbourg,no,True,"February 26, 1912"
+714.0,0,3, male,29.0,0,0,9.4833,S,Third,man,True,,Southampton,no,True,21/03/1912
+281.0,0,3,m,65.0,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,"February 13, 1912"
+336.0,0,3,m,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,01/02/1912
+14.0,0,3,male,39.0,1,5,31.275,S,Third,man,True,,Southampton,no,False,05/02/1912
+228.0,0,3, male,20.5,0,0,7.25,S,Third,man,True,,Southampton,no,True,13/03/1912
+833.0,0,3,Male,,0,0,7.2292,C,Third,man,True,,Cherbourg,no,True,1912-03-26
+866.0,1,2,F,42.0,0,0,13.0,S,Second,woman,False,,Southampton,yes,True,1912-02-07
+771.0,0,3, male,24.0,0,0,9.5,S,Third,man,True,,Southampton,no,True,1912-01-24
+861.0,0,3, male,41.0,2,0,$14.11,S,Third,man,True,,Southampton,no,False,1912-03-06
+292.0,1,1,female ,19.0,1,0,91.0792,C,First,woman,False,B,Cherbourg,yes,False,09/02/1912
+596.0,0,3, male,36.0,1,1,$24.15,S,Third,man,True,,Southampton,no,False,23/03/1912
+802.0,1,2,Female,31.0,1,1,26.25,S,Second,woman,False,,Southampton,yes,False,1912-03-01
+252.0,0,3,Female,29.0,1,1,10.4625,S,Third,woman,False,G,Southampton,no,False,"March 27, 1912"
+385.0,0,3,Male,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,1912-03-03
+805.0,1,3,M,27.0,0,0,6.975,S,Third,man,True,,Southampton,yes,True,07/01/1912
+200.0,0,2,female,24.0,0,0,13.0,S,Second,woman,False,,Southampton,no,True,1912-02-25
+3.0,1,3,f,26.0,0,0,7.925,S,Third,woman,False,,Southampton,yes,True,"March 05, 1912"
+130.0,0,3,M,45.0,0,0,$6.97,S,Third,man,True,,Southampton,no,True,"March 07, 1912"
+91.0,0,3,male,29.0,0,0,$8.05,S,Third,man,True,,Southampton,no,True,1912-01-22
+259.0,1,1,Female,35.0,0,0,512.3292,C,First,woman,False,,Cherbourg,yes,True,1912-02-02
+127.0,0,3, male,,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,"January 09, 1912"
+276.0,1,1,F,63.0,1,0,77.9583,S,First,woman,False,D,Southampton,yes,False,"March 05, 1912"
+164.0,0,3, male,17.0,0,0,$8.66,S,Third,man,True,,Southampton,no,True,1912-03-20
+112.0,0,3,female,14.5,1,0,$14.45,C,Third,child,False,,Cherbourg,no,False,1912-01-25
+646.0,1,1,m,48.0,1,0,76.7292,C,First,man,True,D,Cherbourg,yes,False,"February 05, 1912"
+699.0,0,1,male,49.0,1,1,$110.88,C,First,man,True,C,Cherbourg,no,False,"February 18, 1912"
+316.0,1,3,Female,26.0,0,0,7.8542,S,Third,woman,False,,Southampton,yes,True,15/01/1912
+345.0,0,2,M,36.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,"March 05, 1912"
+661.0,1,1,M,50.0,2,0,$133.65,S,First,man,True,,Southampton,yes,False,20/01/1912
+669.0,0,3,M,43.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,21/02/1912
+280.0,1,3,female ,35.0,1,1,$20.25,S,Third,woman,False,,Southampton,yes,False,"January 01, 1912"
+784.0,0,3, male,,1,2,23.45,S,Third,man,True,,Southampton,no,False,12/03/1912
+73.0,0,2,m,21.0,0,0,$73.50,S,Second,man,True,,Southampton,no,True,"January 13, 1912"
+3.0,1,3,f,26.0,0,0,7.925,S,Third,woman,False,,Southampton,yes,True,"March 05, 1912"
+313.0,0,2,Female,26.0,1,1,$26.00,S,Second,woman,False,,Southampton,no,False,1912-02-11
+817.0,0,3,female,23.0,0,0,$7.92,S,Third,woman,False,,Southampton,no,True,08/02/1912
+285.0,0,1, male,,0,0,$26.00,S,First,man,True,A,Southampton,no,True,04/04/1912
+13.0,0,3, male,20.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,1912-02-13
+305.0,0,3,m,,0,0,8.05,S,Third,man,True,,Southampton,no,True,1912-03-22
+369.0,1,3,female ,,0,0,7.75,Q,Third,woman,False,,Queenstown,yes,True,"January 01, 1912"
+810.0,1,1,female,33.0,1,0,$53.10,S,First,woman,False,E,Southampton,yes,False,"March 31, 1912"
+109.0,0,3,M,38.0,0,0,$7.90,S,Third,man,True,,Southampton,no,True,"March 16, 1912"
+719.0,0,3,male,,0,0,$15.50,Q,Third,man,True,,Queenstown,no,True,"January 05, 1912"
+437.0,0,3,Female,21.0,2,2,$34.38,S,Third,woman,False,,Southampton,no,False,21/02/1912
+182.0,0,2,male,,0,0,$15.05,C,Second,man,True,,Cherbourg,no,True,"January 14, 1912"
+296.0,0,1,M,,0,0,27.7208,C,First,man,True,,Cherbourg,no,True,1912-02-17
+867.0,1,2,F,27.0,1,0,$13.86,C,Second,woman,False,,Cherbourg,yes,False,1912-03-16
+691.0,1,1, male,31.0,1,0,$57.00,S,First,man,True,B,Southampton,yes,False,1912-03-13
+716.0,0,3,M,19.0,0,0,7.65,S,Third,man,True,F,Southampton,no,True,28/03/1912
+43.0,0,3, male,,0,0,7.8958,C,Third,man,True,,Cherbourg,no,True,04/02/1912
+643.0,0,3,female,2.0,3,2,$27.90,S,Third,child,False,,Southampton,no,False,19/02/1912
+531.0,1,2,f,2.0,1,1,$26.00,S,Second,child,False,,Southampton,yes,False,"February 18, 1912"
+853.0,0,3,f,9.0,1,1,15.2458,C,Third,child,False,,Cherbourg,no,False,02/01/1912
+707.0,1,2,female ,45.0,0,0,13.5,S,Second,woman,False,,Southampton,yes,True,1912-03-20
+758.0,0,2,M,18.0,0,0,11.5,S,Second,man,True,,Southampton,no,True,"February 04, 1912"
+642.0,1,1,female ,24.0,0,0,69.3,C,First,woman,False,B,Cherbourg,yes,True,1912-03-03
+795.0,0,3,m,25.0,0,0,$7.90,S,Third,man,True,,Southampton,no,True,10/02/1912
+516.0,0,1,m,47.0,0,0,34.0208,S,First,man,True,D,Southampton,no,True,"January 09, 1912"
+743.0,1,1,Female,21.0,2,2,262.375,C,First,woman,False,B,Cherbourg,yes,False,1912-01-25
+400.0,1,2,F,28.0,0,0,99999,S,Second,woman,False,,Southampton,yes,True,22/02/1912
+334.0,0,3,M,16.0,2,0,$18.00,S,Third,man,True,,Southampton,no,False,1912-01-12
+834.0,0,3, male,23.0,0,0,$7.85,S,Third,man,True,,Southampton,no,True,1912-03-23
+56.0,1,1, male,,0,0,35.5,S,First,man,True,C,Southampton,yes,True,"February 16, 1912"
+720.0,0,3,m,33.0,0,0,7.775,S,Third,man,True,,Southampton,no,True,1912-01-26
+506.0,0,1,Male,18.0,1,0,$108.90,C,First,man,True,C,Cherbourg,no,False,1912-02-07
+446.0,1,1,M,4.0,0,2,81.8583,S,First,child,False,A,Southampton,yes,False,22/03/1912
+41.0,0,3,F,40.0,1,0,9.475,S,Third,woman,False,,Southampton,no,False,1912-01-12
+418.0,1,2,female ,18.0,0,2,13.0,S,Second,woman,False,,Southampton,yes,False,1912-02-18
+619.0,1,2,Female,4.0,2,1,39.0,S,Second,child,False,F,Southampton,yes,False,03/03/1912
+328.0,1,2,female,36.0,0,0,13.0,S,Second,woman,False,D,Southampton,yes,True,1912-02-20
+655.0,0,3,f,18.0,0,0,6.75,Q,Third,woman,False,,Queenstown,no,True,1912-02-11
+179.0,0,2,Male,30.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,"April 03, 1912"
+177.0,0,3, male,,3,1,25.4667,S,Third,man,True,,Southampton,no,False,"March 05, 1912"
+701.0,1,1,f,18.0,1,0,227.525,C,First,woman,False,C,Cherbourg,yes,False,"March 07, 1912"
+59.0,1,2,F,5.0,1,2,27.75,S,Second,child,False,,Southampton,yes,False,16/03/1912
+388.0,1,2,F,36.0,0,0,13.0,S,Second,woman,False,,Southampton,yes,True,23/03/1912
+497.0,1,1,f,54.0,1,0,78.2667,C,First,woman,False,D,Cherbourg,yes,False,1912-02-05
+17.0,0,3,male,2.0,4,1,29.125,Q,Third,child,False,,Queenstown,no,False,1912-01-02
+544.0,1,2,male,32.0,1,0,$26.00,S,Second,man,True,,Southampton,yes,False,1912-04-03
+644.0,1,3,male,,0,0,56.4958,S,Third,man,True,,Southampton,yes,True,26/01/1912
+372.0,0,3,male,18.0,1,0,6.4958,S,Third,man,True,,Southampton,no,False,1912-02-28
+631.0,1,1,male,80.0,0,0,30.0,S,First,man,True,A,Southampton,yes,True,1912-03-09
+530.0,0,2,male,23.0,2,1,11.5,S,Second,man,True,,Southampton,no,False,1912-02-28
+855.0,0,2,F,44.0,1,0,26.0,S,Second,woman,False,,Southampton,no,False,"February 17, 1912"
+481.0,0,3, male,9.0,5,2,46.9,S,Third,child,False,,Southampton,no,False,1912-02-06
+862.0,0,2,m,21.0,1,0,11.5,S,Second,man,True,,Southampton,no,False,"January 16, 1912"
+74.0,0,3,Male,26.0,1,0,14.4542,C,Third,man,True,,Cherbourg,no,False,"March 28, 1912"
+781.0,1,3,female ,13.0,0,0,7.2292,C,Third,child,False,,Cherbourg,yes,True,"January 30, 1912"
+399.0,0,2, male,23.0,0,0,10.5,S,Second,man,True,,Southampton,no,True,"April 01, 1912"
+30.0,0,3,M,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,1912-03-01
+874.0,0,3,M,47.0,0,0,9.0,S,Third,man,True,,Southampton,no,True,13/01/1912
+339.0,1,3,male,45.0,0,0,8.05,S,Third,man,True,,Southampton,yes,True,1912-01-27
+692.0,1,3,female ,4.0,0,1,13.4167,C,Third,child,False,,Cherbourg,yes,False,"March 07, 1912"
+889.0,0,3,F,,1,2,23.45,S,Third,woman,False,,Southampton,no,False,"March 04, 1912"
+852.0,0,3, male,74.0,0,0,7.775,S,Third,man,True,,Southampton,no,True,21/02/1912
+413.0,1,1,Female,33.0,1,0,90.0,Q,First,woman,False,C,Queenstown,yes,False,1912-01-19
+204.0,0,3,m,45.5,0,0,7.225,C,Third,man,True,,Cherbourg,no,True,"February 08, 1912"
+33.0,1,3,F,,0,0,7.75,Q,Third,woman,False,,Queenstown,yes,True,1912-01-10
+440.0,0,2,m,31.0,0,0,$10.50,S,Second,man,True,,Southampton,no,True,29/03/1912
+441.0,1,2,f,45.0,1,1,$26.25,S,Second,woman,False,,Southampton,yes,False,22/03/1912
+157.0,1,3,female ,16.0,0,0,7.7333,Q,Third,woman,False,,Queenstown,yes,True,1912-03-04
+870.0,1,3, male,4.0,1,1,11.1333,S,Third,child,False,,Southampton,yes,False,21/01/1912
+335.0,1,1,F,,1,0,133.65,S,First,woman,False,,Southampton,yes,False,"January 18, 1912"
+461.0,1,1,Male,48.0,0,0,$26.55,S,First,man,True,E,Southampton,yes,True,16/02/1912
+727.0,1,2,female ,30.0,3,0,$21.00,S,Second,woman,False,,Southampton,yes,False,"March 20, 1912"
+725.0,1,1,m,27.0,1,0,$53.10,S,First,man,True,E,Southampton,yes,False,1912-01-15
+824.0,1,3,f,27.0,0,1,12.475,S,Third,woman,False,E,Southampton,yes,False,"March 11, 1912"
+4.0,1,1,female ,35.0,1,0,53.1,S,First,woman,False,C,Southampton,yes,False,1912-04-01
+557.0,1,1,female,48.0,1,0,39.6,C,First,woman,False,A,Cherbourg,yes,False,17/02/1912
+131.0,0,3,Male,33.0,0,0,7.8958,C,Third,man,True,,Cherbourg,no,True,23/01/1912
+576.0,0,3,M,19.0,0,0,$14.50,S,Third,man,True,,Southampton,no,True,1912-03-12
+343.0,0,2,Male,28.0,0,0,$13.00,S,Second,man,True,,Southampton,no,True,1912-04-04
+766.0,1,1,F,51.0,1,0,$77.96,S,First,woman,False,D,Southampton,yes,False,1912-01-13
+485.0,1,1, male,25.0,1,0,91.0792,C,First,man,True,B,Cherbourg,yes,False,"March 31, 1912"
+322.0,0,3,Male,27.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"April 04, 1912"
+770.0,0,3,Male,32.0,0,0,8.3625,S,Third,man,True,,Southampton,no,True,30/03/1912
+329.0,1,3,f,31.0,1,1,$20.52,S,Third,woman,False,,Southampton,yes,False,"March 02, 1912"
+477.0,0,2,male,34.0,1,0,21.0,S,Second,man,True,,Southampton,no,False,1912-01-14
+433.0,1,2,f,42.0,1,0,$26.00,S,Second,woman,False,,Southampton,yes,False,11/02/1912
+114.0,0,3,female ,20.0,1,0,$9.82,S,Third,woman,False,,Southampton,no,False,1912-02-10
+49.0,0,3,M,,2,0,21.6792,C,Third,man,True,,Cherbourg,no,False,"January 31, 1912"
+290.0,1,3,F,22.0,0,0,7.75,Q,Third,woman,False,,Queenstown,yes,True,1912-02-11
+453.0,0,1,M,30.0,0,0,27.75,C,First,man,True,C,Cherbourg,no,True,"March 03, 1912"
+207.0,0,3,male,32.0,1,0,15.85,S,Third,man,True,,Southampton,no,False,"January 19, 1912"
+474.0,1,2,f,23.0,0,0,13.7917,C,Second,woman,False,D,Cherbourg,yes,True,11/03/1912
+286.0,0,3,M,33.0,0,0,8.6625,C,Third,man,True,,Cherbourg,no,True,"February 27, 1912"
+684.0,0,3,Male,14.0,5,2,$46.90,S,Third,child,False,,Southampton,no,False,1912-03-10
+226.0,0,3,male,22.0,0,0,$9.35,S,Third,man,True,,Southampton,no,True,1912-02-25
+567.0,0,3,Male,19.0,0,0,$7.90,S,Third,man,True,,Southampton,no,True,1912-03-08
+121.0,0,2,M,21.0,2,0,$73.50,S,Second,man,True,,Southampton,no,False,"February 08, 1912"
+466.0,0,3, male,38.0,0,0,7.05,S,Third,man,True,,Southampton,no,True,1912-03-29
+387.0,0,3,Male,1.0,5,2,46.9,S,Third,child,False,,Southampton,no,False,"January 07, 1912"
+886.0,0,3,female,39.0,0,5,29.125,Q,Third,woman,False,,Queenstown,no,False,"January 20, 1912"
+222.0,0,2,m,27.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,02/01/1912
+493.0,0,1, male,55.0,0,0,$30.50,S,First,man,True,C,Southampton,no,True,05/03/1912
+172.0,0,3,m,4.0,4,1,$29.12,Q,Third,child,False,,Queenstown,no,False,"February 13, 1912"
+879.0,0,3,m,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"March 26, 1912"
+753.0,0,3, male,33.0,0,0,$9.50,S,Third,man,True,,Southampton,no,True,15/03/1912
+681.0,0,3,female,,0,0,8.1375,Q,Third,woman,False,,Queenstown,no,True,"February 09, 1912"
+489.0,0,3,M,30.0,0,0,$8.05,S,Third,man,True,,Southampton,no,True,"April 01, 1912"
+673.0,0,2, male,70.0,0,0,10.5,S,Second,man,True,,Southampton,no,True,1912-01-06
+469.0,0,3,male,,0,0,$7.72,Q,Third,man,True,,Queenstown,no,True,15/02/1912
+702.0,1,1,Male,35.0,0,0,26.2875,S,First,man,True,E,Southampton,yes,True,29/01/1912
+124.0,1,2,f,32.5,0,0,13.0,S,Second,woman,False,E,Southampton,yes,True,14/03/1912
+491.0,0,3,M,,1,0,19.9667,S,Third,man,True,,Southampton,no,False,"March 10, 1912"
+181.0,0,3,f,,8,2,69.55,S,Third,woman,False,,Southampton,no,False,21/01/1912
+162.0,1,2,female,40.0,0,0,15.75,S,Second,woman,False,,Southampton,yes,True,17/01/1912
+775.0,1,2,female,54.0,1,3,23.0,S,Second,woman,False,,Southampton,yes,False,11/01/1912
+445.0,1,3,M,,0,0,$8.11,S,Third,man,True,,Southampton,yes,True,31/01/1912
+118.0,0,2, male,29.0,1,0,$21.00,S,Second,man,True,,Southampton,no,False,"February 04, 1912"
+871.0,0,3,m,26.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,1912-03-21
+881.0,1,2,f,25.0,0,1,26.0,S,Second,woman,False,,Southampton,yes,False,30/03/1912
+700.0,0,3,Male,42.0,0,0,7.65,S,Third,man,True,F,Southampton,no,True,1912-03-29
+617.0,0,3,M,34.0,1,1,14.4,S,Third,man,True,,Southampton,no,False,1912-02-02
+454.0,1,1,m,49.0,1,0,$89.10,C,First,man,True,C,Cherbourg,yes,False,24/01/1912
+520.0,0,3,Male,32.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"January 07, 1912"
+241.0,0,3,female ,,1,0,14.4542,C,Third,woman,False,,Cherbourg,no,False,28/03/1912
+135.0,0,2, male,25.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,"March 18, 1912"
+156.0,0,1, male,51.0,0,1,61.3792,C,First,man,True,,Cherbourg,no,False,"March 03, 1912"
+354.0,0,3,m,25.0,1,0,17.8,S,Third,man,True,,Southampton,no,False,"February 03, 1912"
+140.0,0,1,Male,24.0,0,0,79.2,C,First,man,True,B,Cherbourg,no,True,"January 10, 1912"
+694.0,0,3, male,25.0,0,0,7.225,C,Third,man,True,,Cherbourg,no,True,"January 12, 1912"
+61.0,0,3,Male,22.0,0,0,7.2292,C,Third,man,True,,Cherbourg,no,True,"January 14, 1912"
+559.0,1,1,F,39.0,1,1,$79.65,S,First,woman,False,E,Southampton,yes,False,19/01/1912
+553.0,0,3,M,,0,0,7.8292,Q,Third,man,True,,Queenstown,no,True,1912-02-05
+166.0,1,3,M,9.0,0,2,20.525,S,Third,child,False,,Southampton,yes,False,"February 07, 1912"
+813.0,0,2,Male,35.0,0,0,10.5,S,Second,man,True,,Southampton,no,True,1912-01-27
+301.0,1,3,f,,0,0,7.75,Q,Third,woman,False,,Queenstown,yes,True,1912-04-01
+511.0,1,3, male,29.0,0,0,7.75,Q,Third,man,True,,Queenstown,yes,True,09/03/1912
+458.0,1,1,female ,,1,0,51.8625,S,First,woman,False,D,Southampton,yes,False,1912-02-29
+298.0,0,1,F,2.0,1,2,$151.55,S,First,child,False,C,Southampton,no,False,"February 29, 1912"
+395.0,1,3,F,24.0,0,2,$16.70,S,Third,woman,False,G,Southampton,yes,False,12/02/1912
+132.0,0,3,Male,20.0,0,0,7.05,S,Third,man,True,,Southampton,no,True,"January 17, 1912"
+315.0,0,2,m,43.0,1,1,26.25,S,Second,man,True,,Southampton,no,False,"January 28, 1912"
+835.0,0,3,m,18.0,0,0,$8.30,S,Third,man,True,,Southampton,no,True,"March 19, 1912"
+677.0,0,3,Male,24.5,0,0,8.05,S,Third,man,True,,Southampton,no,True,1912-03-29
+797.0,1,1,Female,49.0,0,0,25.9292,S,First,woman,False,D,Southampton,yes,True,1912-02-12
+521.0,1,1,female,30.0,0,0,93.5,S,First,woman,False,B,Southampton,yes,True,1912-02-29
+39.0,0,3,Female,18.0,2,0,18.0,S,Third,woman,False,,Southampton,no,False,25/03/1912
+250.0,0,2,m,54.0,1,0,26.0,S,Second,man,True,,Southampton,no,False,27/03/1912
+428.0,1,2,f,19.0,0,0,26.0,S,Second,woman,False,,Southampton,yes,True,29/02/1912
+403.0,0,3,F,21.0,1,0,9.825,S,Third,woman,False,,Southampton,no,False,09/03/1912
+54.0,1,2,F,29.0,1,0,$26.00,S,Second,woman,False,,Southampton,yes,False,"February 02, 1912"
+195.0,1,1,f,44.0,0,0,$27.72,C,First,woman,False,B,Cherbourg,yes,True,23/03/1912
+137.0,1,1,F,19.0,0,2,$26.28,S,First,woman,False,D,Southampton,yes,False,1912-03-30
+863.0,1,1,female ,48.0,0,0,25.9292,S,First,woman,False,D,Southampton,yes,True,05/02/1912
+616.0,1,2,F,24.0,1,2,$65.00,S,Second,woman,False,,Southampton,yes,False,"April 03, 1912"
+282.0,0,3,m,28.0,0,0,7.8542,S,Third,man,True,,Southampton,no,True,1912-01-24
+36.0,0,1,m,42.0,1,0,$52.00,S,First,man,True,,Southampton,no,False,1912-03-03
+599.0,0,3,m,,0,0,7.225,C,Third,man,True,,Cherbourg,no,True,13/01/1912
+569.0,0,3, male,,0,0,$7.23,C,Third,man,True,,Cherbourg,no,True,"March 12, 1912"
+682.0,1,1,Male,27.0,0,0,$76.73,C,First,man,True,D,Cherbourg,yes,True,06/03/1912
+379.0,0,3,m,20.0,0,0,4.0125,C,Third,man,True,,Cherbourg,no,True,1912-01-07
+67.0,1,2,female,29.0,0,0,$10.50,S,Second,woman,False,F,Southampton,yes,True,28/01/1912
+527.0,1,2,F,50.0,0,0,10.5,S,Second,woman,False,,Southampton,yes,True,1912-03-24
+459.0,1,2,f,50.0,0,0,10.5,S,Second,woman,False,,Southampton,yes,True,22/03/1912
+472.0,0,3,male,38.0,0,0,8.6625,S,Third,man,True,,Southampton,no,True,"March 01, 1912"
+53.0,1,1,female ,49.0,1,0,76.7292,C,First,woman,False,D,Cherbourg,yes,False,1912-03-08
+378.0,0,1,Male,27.0,0,2,211.5,C,First,man,True,C,Cherbourg,no,False,31/03/1912
+688.0,0,3,M,19.0,0,0,10.1708,S,Third,man,True,,Southampton,no,True,1912-01-24
+841.0,0,3,male,20.0,0,0,7.925,S,Third,man,True,,Southampton,no,True,"February 12, 1912"
+878.0,0,3,M,19.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"February 08, 1912"
+240.0,0,2, male,33.0,0,0,$12.28,S,Second,man,True,,Southampton,no,True,"January 14, 1912"
+247.0,0,3,female ,25.0,0,0,7.775,S,Third,woman,False,,Southampton,no,True,09/03/1912
+860.0,0,3,M,,0,0,$7.23,C,Third,man,True,,Cherbourg,no,True,"February 01, 1912"
+426.0,0,3,male,,0,0,$7.25,S,Third,man,True,,Southampton,no,True,"January 19, 1912"
+547.0,1,2,female,19.0,1,0,26.0,S,Second,woman,False,,Southampton,yes,False,1912-01-28
+29.0,1,3,F,,0,0,7.8792,Q,Third,woman,False,,Queenstown,yes,True,25/03/1912
+755.0,1,2,f,48.0,1,2,$65.00,S,Second,woman,False,,Southampton,yes,False,"February 13, 1912"
+266.0,0,2,Male,36.0,0,0,$10.50,S,Second,man,True,,Southampton,no,True,"January 28, 1912"
+641.0,0,3, male,20.0,0,0,$7.85,S,Third,man,True,,Southampton,no,True,1912-02-11
+792.0,0,2,male,16.0,0,0,26.0,S,Second,man,True,,Southampton,no,True,13/02/1912
+245.0,0,3,M,30.0,0,0,7.225,C,Third,man,True,,Cherbourg,no,True,04/04/1912
+104.0,0,3,M,33.0,0,0,$8.65,S,Third,man,True,,Southampton,no,True,"January 18, 1912"
+277.0,0,3,female ,45.0,0,0,7.75,S,Third,woman,False,,Southampton,no,True,1912-02-16
+394.0,1,1,female,23.0,1,0,113.275,C,First,woman,False,D,Cherbourg,yes,False,18/02/1912
+111.0,0,1,Male,47.0,0,0,52.0,S,First,man,True,C,Southampton,no,True,23/01/1912
+77.0,0,3,m,,0,0,$7.90,S,Third,man,True,,Southampton,no,True,1912-03-18
+160.0,0,3,male,,8,2,$69.55,S,Third,man,True,,Southampton,no,False,"March 04, 1912"
+236.0,0,3,female,,0,0,7.55,S,Third,woman,False,,Southampton,no,True,17/02/1912
+412.0,0,3,male,,0,0,6.8583,Q,Third,man,True,,Queenstown,no,True,1912-03-05
+718.0,1,2,female,27.0,0,0,$10.50,S,Second,woman,False,E,Southampton,yes,True,19/02/1912
+113.0,0,3,Male,22.0,0,0,$8.05,S,Third,man,True,,Southampton,no,True,03/03/1912
+697.0,0,3,m,44.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,"January 22, 1912"
+793.0,0,3,female,,8,2,69.55,S,Third,woman,False,,Southampton,no,False,22/03/1912
+594.0,0,3,female ,,0,2,$7.75,Q,Third,woman,False,,Queenstown,no,False,17/02/1912
+787.0,1,3,female ,18.0,0,0,$7.50,S,Third,woman,False,,Southampton,yes,True,"February 17, 1912"
+330.0,1,1,f,16.0,0,1,$57.98,C,First,woman,False,B,Cherbourg,yes,False,1912-01-30
+263.0,0,1, male,52.0,1,1,$79.65,S,First,man,True,E,Southampton,no,False,1912-01-10
+224.0,0,3, male,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"March 19, 1912"
+431.0,1,1,Male,28.0,0,0,26.55,S,First,man,True,C,Southampton,yes,True,20/02/1912
+664.0,0,3,M,36.0,0,0,7.4958,S,Third,man,True,,Southampton,no,True,"April 02, 1912"
+790.0,0,1,Male,46.0,0,0,$79.20,C,First,man,True,B,Cherbourg,no,True,1912-03-06
+550.0,1,2,Male,8.0,1,1,36.75,S,Second,child,False,,Southampton,yes,False,1912-01-26
+600.0,1,1,Male,49.0,1,0,56.9292,C,First,man,True,A,Cherbourg,yes,False,09/01/1912
+168.0,0,3,female,45.0,1,4,27.9,S,Third,woman,False,,Southampton,no,False,16/03/1912
+756.0,1,2,M,0.67,1,1,14.5,S,Second,child,False,,Southampton,yes,False,18/01/1912
+242.0,1,3,female,,1,0,15.5,Q,Third,woman,False,,Queenstown,yes,False,"February 22, 1912"
+607.0,0,3,M,30.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,1912-01-19
+736.0,0,3,m,28.5,0,0,$16.10,S,Third,man,True,,Southampton,no,True,"February 24, 1912"
+155.0,0,3,m,,0,0,7.3125,S,Third,man,True,,Southampton,no,True,1912-01-29
+868.0,0,1,M,31.0,0,0,50.4958,S,First,man,True,A,Southampton,no,True,"March 28, 1912"
+25.0,0,3,f,8.0,3,1,$21.07,S,Third,child,False,,Southampton,no,False,"January 08, 1912"
+295.0,0,3,Male,24.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"January 10, 1912"
+582.0,1,1,female,39.0,1,1,110.8833,C,First,woman,False,C,Cherbourg,yes,False,1912-02-03
+444.0,1,2,female,28.0,0,0,$13.00,S,Second,woman,False,,Southampton,yes,True,"March 02, 1912"
+653.0,0,3,M,21.0,0,0,8.4333,S,Third,man,True,,Southampton,no,True,1912-03-15
+769.0,0,3,M,,1,0,24.15,Q,Third,man,True,,Queenstown,no,False,"January 26, 1912"
+151.0,0,2, male,51.0,0,0,$12.53,S,Second,man,True,,Southampton,no,True,"March 07, 1912"
+42.0,0,2,Female,27.0,1,0,21.0,S,Second,woman,False,,Southampton,no,False,"January 24, 1912"
+347.0,1,2,female,40.0,0,0,13.0,S,Second,woman,False,,Southampton,yes,True,1912-01-04
+95.0,0,3,Male,59.0,0,0,7.25,S,Third,man,True,,Southampton,no,True,"February 29, 1912"
+537.0,0,1, male,45.0,0,0,26.55,S,First,man,True,B,Southampton,no,True,1912-02-06
+218.0,0,2,Male,42.0,1,0,$27.00,S,Second,man,True,,Southampton,no,False,27/03/1912
+703.0,0,3,F,18.0,0,1,$14.45,C,Third,woman,False,,Cherbourg,no,False,1912-02-06
+382.0,1,3,female,1.0,0,2,$15.74,C,Third,child,False,,Cherbourg,yes,False,"January 13, 1912"
+24.0,1,1,Male,28.0,0,0,35.5,S,First,man,True,A,Southampton,yes,True,1912-01-26
+269.0,1,1,female,58.0,0,1,153.4625,S,First,woman,False,C,Southampton,yes,False,1912-01-02
+389.0,0,3,male,,0,0,$7.73,Q,Third,man,True,,Queenstown,no,True,08/02/1912
+522.0,0,3,male,22.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"February 06, 1912"
+353.0,0,3,male,15.0,1,1,7.2292,C,Third,child,False,,Cherbourg,no,False,"March 28, 1912"
+417.0,1,2,female ,34.0,1,1,32.5,S,Second,woman,False,,Southampton,yes,False,09/02/1912
+293.0,0,2,male,36.0,0,0,12.875,C,Second,man,True,D,Cherbourg,no,True,"January 23, 1912"
+201.0,0,3,M,28.0,0,0,9.5,S,Third,man,True,,Southampton,no,True,11/02/1912
+174.0,0,3,M,21.0,0,0,7.925,S,Third,man,True,,Southampton,no,True,12/02/1912
+101.0,0,3,f,28.0,0,0,$7.90,S,Third,woman,False,,Southampton,no,True,07/02/1912
+26.0,1,3,Female,38.0,1,5,31.3875,S,Third,woman,False,,Southampton,yes,False,1912-03-29
+92.0,0,3,m,20.0,0,0,7.8542,S,Third,man,True,,Southampton,no,True,"March 03, 1912"
+693.0,1,3,Male,,0,0,56.4958,S,Third,man,True,,Southampton,yes,True,05/03/1912
+857.0,1,1,female,45.0,1,1,$164.87,S,First,woman,False,,Southampton,yes,False,08/01/1912
+217.0,1,3,female ,27.0,0,0,$7.92,S,Third,woman,False,,Southampton,yes,True,"January 22, 1912"
+822.0,1,3,m,27.0,0,0,$8.66,S,Third,man,True,,Southampton,yes,True,27/03/1912
+490.0,1,3,male,9.0,1,1,$15.90,S,Third,child,False,,Southampton,yes,False,1912-01-21
+885.0,0,3,male,25.0,0,0,7.05,S,Third,man,True,,Southampton,no,True,"January 09, 1912"
+223.0,0,3,m,51.0,0,0,$8.05,S,Third,man,True,,Southampton,no,True,01/04/1912
+215.0,0,3,Male,,1,0,$7.75,Q,Third,man,True,,Queenstown,no,False,01/02/1912
+189.0,0,3,M,40.0,1,1,15.5,Q,Third,man,True,,Queenstown,no,False,1912-03-31
+355.0,0,3,m,,0,0,7.225,C,Third,man,True,,Cherbourg,no,True,"February 26, 1912"
+890.0,1,1,male,26.0,0,0,30.0,C,First,man,True,C,Cherbourg,yes,True,1912-03-25
+243.0,0,2, male,29.0,0,0,10.5,S,Second,man,True,,Southampton,no,True,1912-02-20
+112.0,0,3,female,14.5,1,0,$14.45,C,Third,child,False,,Cherbourg,no,False,1912-01-25
+74.0,0,3,Male,26.0,1,0,14.4542,C,Third,man,True,,Cherbourg,no,False,"March 28, 1912"
+883.0,0,3,Female,22.0,0,0,10.5167,S,Third,woman,False,,Southampton,no,True,02/02/1912
+119.0,0,1,Male,24.0,0,1,$247.52,C,First,man,True,B,Cherbourg,no,False,"January 18, 1912"
+115.0,0,3,F,17.0,0,0,14.4583,C,Third,woman,False,,Cherbourg,no,True,1912-03-04
+6.0,0,3,m,,0,0,8.4583,Q,Third,man,True,,Queenstown,no,True,"January 11, 1912"
+476.0,0,1,Male,,0,0,52.0,S,First,man,True,A,Southampton,no,True,25/01/1912
+602.0,0,3,m,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,12/01/1912
+543.0,0,3,female ,11.0,4,2,$31.27,S,Third,child,False,,Southampton,no,False,1912-02-08
+70.0,0,3,m,26.0,2,0,8.6625,S,Third,man,True,,Southampton,no,False,04/02/1912
+15.0,0,3,F,14.0,0,0,7.8542,S,Third,child,False,,Southampton,no,True,1912-02-23
+820.0,0,3, male,10.0,3,2,$27.90,S,Third,child,False,,Southampton,no,False,30/01/1912
+568.0,0,3,F,29.0,0,4,$21.07,S,Third,woman,False,,Southampton,no,False,06/02/1912
+370.0,1,1,female ,24.0,0,0,69.3,C,First,woman,False,B,Cherbourg,yes,True,01/01/1912
+79.0,1,2,m,0.83,0,2,29.0,S,Second,child,False,,Southampton,yes,False,1912-04-04
+480.0,1,3,female ,2.0,0,1,$12.29,S,Third,child,False,,Southampton,yes,False,29/02/1912
+666.0,0,2,m,32.0,2,0,73.5,S,Second,man,True,,Southampton,no,False,"February 29, 1912"
+55.0,0,1, male,65.0,0,1,61.9792,C,First,man,True,B,Cherbourg,no,False,03/04/1912
+468.0,0,1, male,56.0,0,0,26.55,S,First,man,True,,Southampton,no,True,"February 28, 1912"
+267.0,0,3,male,16.0,4,1,39.6875,S,Third,man,True,,Southampton,no,False,"February 13, 1912"
+804.0,1,3, male,0.42,0,1,$8.52,C,Third,child,False,,Cherbourg,yes,False,"February 03, 1912"
+515.0,0,3,Male,24.0,0,0,7.4958,S,Third,man,True,,Southampton,no,True,22/01/1912
+538.0,1,1,Female,30.0,0,0,$106.42,C,First,woman,False,,Cherbourg,yes,True,"February 10, 1912"
+800.0,0,3,F,30.0,1,1,24.15,S,Third,woman,False,,Southampton,no,False,"February 16, 1912"
+504.0,0,3,F,37.0,0,0,9.5875,S,Third,woman,False,,Southampton,no,True,"January 22, 1912"
+558.0,0,1,m,,0,0,227.525,C,First,man,True,,Cherbourg,no,True,1912-03-09
+167.0,1,1,female,,0,1,55.0,S,First,woman,False,E,Southampton,yes,False,1912-02-16
+665.0,1,3, male,20.0,1,0,$7.92,S,Third,man,True,,Southampton,yes,False,1912-04-02
+332.0,0,1,M,45.5,0,0,28.5,S,First,man,True,C,Southampton,no,True,"March 22, 1912"
+807.0,0,1,Male,39.0,0,0,0.0,S,First,man,True,A,Southampton,no,True,1912-01-20
+248.0,1,2,F,24.0,0,2,$14.50,S,Second,woman,False,,Southampton,yes,False,1912-02-13
+374.0,0,1,male,22.0,0,0,135.6333,C,First,man,True,,Cherbourg,no,True,21/03/1912
+581.0,1,2,F,25.0,1,1,30.0,S,Second,woman,False,,Southampton,yes,False,1912-03-07
+473.0,1,2,F,33.0,1,2,$27.75,S,Second,woman,False,,Southampton,yes,False,1912-03-13
+500.0,0,3,Male,24.0,0,0,$7.80,S,Third,man,True,,Southampton,no,True,1912-02-10
+849.0,0,2,m,28.0,0,1,$33.00,S,Second,man,True,,Southampton,no,False,31/01/1912
+560.0,1,3,female ,36.0,1,0,17.4,S,Third,woman,False,,Southampton,yes,False,14/01/1912
+739.0,0,3,Male,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,10/03/1912
+308.0,1,1,f,17.0,1,0,$108.90,C,First,woman,False,C,Cherbourg,yes,False,"January 23, 1912"
+502.0,0,3,Female,21.0,0,0,7.75,Q,Third,woman,False,,Queenstown,no,True,1912-02-08
+235.0,0,2,m,24.0,0,0,$10.50,S,Second,man,True,,Southampton,no,True,1912-01-10
+660.0,0,1,male,58.0,0,2,113.275,C,First,man,True,D,Cherbourg,no,False,1912-01-29
+431.0,1,1,Male,28.0,0,0,26.55,S,First,man,True,C,Southampton,yes,True,20/02/1912
+579.0,0,3,f,,1,0,14.4583,C,Third,woman,False,,Cherbourg,no,False,"January 15, 1912"
+192.0,0,2,m,19.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,14/03/1912
+152.0,1,1,female ,22.0,1,0,66.6,S,First,woman,False,C,Southampton,yes,False,1912-02-26
+436.0,1,1,f,14.0,1,2,120.0,S,First,child,False,B,Southampton,yes,False,1912-02-29
+257.0,1,1,female,,0,0,79.2,C,First,woman,False,,Cherbourg,yes,True,1912-03-30
+705.0,0,3,M,26.0,1,0,7.8542,S,Third,man,True,,Southampton,no,False,"February 12, 1912"
+856.0,1,3,F,18.0,0,1,9.35,S,Third,woman,False,,Southampton,yes,False,1912-02-04
+713.0,1,1,M,48.0,1,0,52.0,S,First,man,True,C,Southampton,yes,False,"January 28, 1912"
+542.0,0,3,f,9.0,4,2,31.275,S,Third,child,False,,Southampton,no,False,1912-03-14
+384.0,1,1,F,35.0,1,0,52.0,S,First,woman,False,,Southampton,yes,False,21/02/1912
+146.0,0,2, male,19.0,1,1,36.75,S,Second,man,True,,Southampton,no,False,19/03/1912
+738.0,1,1, male,35.0,0,0,512.3292,C,First,man,True,B,Cherbourg,yes,True,"January 01, 1912"
+812.0,0,3, male,39.0,0,0,24.15,S,Third,man,True,,Southampton,no,True,"January 12, 1912"
+534.0,1,3,female ,,0,2,22.3583,C,Third,woman,False,,Cherbourg,yes,False,"February 27, 1912"
+216.0,1,1,f,31.0,1,0,$113.28,C,First,woman,False,D,Cherbourg,yes,False,07/02/1912
+848.0,0,3,m,35.0,0,0,7.8958,C,Third,man,True,,Cherbourg,no,True,"January 24, 1912"
+825.0,0,3, male,2.0,4,1,39.6875,S,Third,child,False,,Southampton,no,False,10/01/1912
+630.0,0,3,Male,,0,0,7.7333,Q,Third,man,True,,Queenstown,no,True,1912-02-06
+197.0,0,3, male,,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,18/02/1912
+774.0,0,3, male,,0,0,$7.22,C,Third,man,True,,Cherbourg,no,True,1912-01-12
+496.0,0,3,m,,0,0,14.4583,C,Third,man,True,,Cherbourg,no,True,1912-01-15
+18.0,1,2,m,,0,0,13.0,S,Second,man,True,,Southampton,yes,True,1912-01-06
+711.0,1,1,female,24.0,0,0,49.5042,C,First,woman,False,C,Cherbourg,yes,True,1912-01-26
+28.0,0,1,M,19.0,3,2,263.0,S,First,man,True,C,Southampton,no,False,"March 16, 1912"
+278.0,0,2,M,,0,0,$0.00,S,Second,man,True,,Southampton,no,True,23/03/1912
+396.0,0,3,Male,22.0,0,0,7.7958,S,Third,man,True,,Southampton,no,True,"January 10, 1912"
+229.0,0,2,Male,18.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,1912-02-10
+321.0,0,3,M,22.0,0,0,$7.25,S,Third,man,True,,Southampton,no,True,1912-01-08
+148.0,0,3,f,9.0,2,2,34.375,S,Third,child,False,,Southampton,no,False,17/01/1912
+869.0,0,3,male,,0,0,9.5,S,Third,man,True,,Southampton,no,True,01/02/1912
+495.0,0,3,male,21.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,26/01/1912
+450.0,1,1,m,52.0,0,0,30.5,S,First,man,True,C,Southampton,yes,True,"March 16, 1912"
+657.0,0,3,male,,0,0,$7.90,S,Third,man,True,,Southampton,no,True,"January 04, 1912"
+107.0,1,3,f,21.0,0,0,$7.65,S,Third,woman,False,,Southampton,yes,True,"February 12, 1912"
+351.0,0,3,m,23.0,0,0,9.225,S,Third,man,True,,Southampton,no,True,17/03/1912
+524.0,1,1,f,44.0,0,1,57.9792,C,First,woman,False,B,Cherbourg,yes,False,19/02/1912
+390.0,1,2,female,17.0,0,0,$12.00,C,Second,woman,False,,Cherbourg,yes,True,"January 21, 1912"
+449.0,1,3,Female,5.0,2,1,$19.26,C,Third,child,False,,Cherbourg,yes,False,25/03/1912
+94.0,0,3,male,26.0,1,2,20.575,S,Third,man,True,,Southampton,no,False,1912-03-13
+260.0,1,2,Female,50.0,0,1,$26.00,S,Second,woman,False,,Southampton,yes,False,07/03/1912
+555.0,1,3,f,22.0,0,0,7.775,S,Third,woman,False,,Southampton,yes,True,1912-02-28
+814.0,0,3,F,6.0,4,2,31.275,S,Third,child,False,,Southampton,no,False,"January 26, 1912"
+171.0,0,1, male,61.0,0,0,$33.50,S,First,man,True,B,Southampton,no,True,1912-02-10
+255.0,0,3,female ,41.0,0,2,20.2125,S,Third,woman,False,,Southampton,no,False,"January 04, 1912"
+603.0,0,1,male,,0,0,42.4,S,First,man,True,,Southampton,no,True,1912-03-20
+253.0,0,1,male,62.0,0,0,26.55,S,First,man,True,C,Southampton,no,True,16/01/1912
+307.0,1,1,Female,,0,0,110.8833,C,First,woman,False,,Cherbourg,yes,True,07/03/1912
+548.0,1,2, male,,0,0,13.8625,C,Second,man,True,,Cherbourg,yes,True,"February 13, 1912"
+730.0,0,3,f,25.0,1,0,7.925,S,Third,woman,False,,Southampton,no,False,"March 14, 1912"
+872.0,1,1,female,47.0,1,1,$52.55,S,First,woman,False,D,Southampton,yes,False,1912-03-29
+429.0,0,3,male,,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,1912-03-17
+187.0,1,3,f,,1,0,$15.50,Q,Third,woman,False,,Queenstown,yes,False,07/02/1912
+270.0,1,1,female ,35.0,0,0,$135.63,S,First,woman,False,C,Southampton,yes,True,"January 05, 1912"
+163.0,0,3,m,26.0,0,0,7.775,S,Third,man,True,,Southampton,no,True,1912-02-01
+414.0,0,2, male,,0,0,$0.00,S,Second,man,True,,Southampton,no,True,1912-03-07
+741.0,1,1,Male,,0,0,$30.00,S,First,man,True,D,Southampton,yes,True,20/03/1912
+723.0,0,2,Male,34.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,1912-03-02
+99.0,1,2,f,34.0,0,1,23.0,S,Second,woman,False,,Southampton,yes,False,29/01/1912
+7.0,0,1, male,54.0,0,0,51.8625,S,First,man,True,E,Southampton,no,True,1912-03-05
+735.0,0,2, male,23.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,"March 24, 1912"
+782.0,1,1,f,17.0,1,0,$57.00,S,First,woman,False,B,Southampton,yes,False,"January 27, 1912"
+612.0,0,3,M,,0,0,$7.05,S,Third,man,True,,Southampton,no,True,03/02/1912
+230.0,0,3,female,,3,1,25.4667,S,Third,woman,False,,Southampton,no,False,"March 19, 1912"
+265.0,0,3,female ,,0,0,7.75,Q,Third,woman,False,,Queenstown,no,True,1912-03-02
+369.0,1,3,female ,,0,0,7.75,Q,Third,woman,False,,Queenstown,yes,True,"January 01, 1912"
+640.0,0,3,m,,1,0,16.1,S,Third,man,True,,Southampton,no,False,"February 04, 1912"
+791.0,0,3,Male,,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,1912-04-02
+776.0,0,3,m,18.0,0,0,$7.75,S,Third,man,True,,Southampton,no,True,"February 20, 1912"
+821.0,1,1,F,52.0,1,1,93.5,S,First,woman,False,B,Southampton,yes,False,"January 09, 1912"
+404.0,0,3,m,28.0,1,0,$15.85,S,Third,man,True,,Southampton,no,False,1912-03-02
+670.0,1,1,female ,,1,0,52.0,S,First,woman,False,C,Southampton,yes,False,04/03/1912
+611.0,0,3,Female,39.0,1,5,31.275,S,Third,woman,False,,Southampton,no,False,13/02/1912
+190.0,0,3,Male,36.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,16/03/1912
+333.0,0,1,male,38.0,0,1,153.4625,S,First,man,True,C,Southampton,no,False,"January 10, 1912"
+304.0,1,2,female ,,0,0,$12.35,Q,Second,woman,False,E,Queenstown,yes,True,05/03/1912
+261.0,0,3,Male,,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,19/01/1912
+145.0,0,2,M,18.0,0,0,11.5,S,Second,man,True,,Southampton,no,True,1912-03-19
+628.0,1,1,f,21.0,0,0,77.9583,S,First,woman,False,D,Southampton,yes,True,04/02/1912
+284.0,1,3,M,19.0,0,0,8.05,S,Third,man,True,,Southampton,yes,True,10/01/1912
+783.0,0,1,Male,29.0,0,0,30.0,S,First,man,True,D,Southampton,no,True,1912-01-23
+12.0,1,1,female ,58.0,0,0,26.55,S,First,woman,False,C,Southampton,yes,True,1912-01-03
+754.0,0,3,Male,23.0,0,0,$7.90,S,Third,man,True,,Southampton,no,True,"March 09, 1912"
+595.0,0,2,m,37.0,1,0,$26.00,S,Second,man,True,,Southampton,no,False,"March 12, 1912"
+532.0,0,3,male,,0,0,7.2292,C,Third,man,True,,Cherbourg,no,True,1912-03-21
+470.0,1,3,female,0.75,2,1,$19.26,C,Third,child,False,,Cherbourg,yes,False,25/02/1912
+128.0,1,3,male,24.0,0,0,7.1417,S,Third,man,True,,Southampton,yes,True,13/01/1912
+674.0,1,2,m,31.0,0,0,13.0,S,Second,man,True,,Southampton,yes,True,"March 25, 1912"
+58.0,0,3,m,28.5,0,0,7.2292,C,Third,man,True,,Cherbourg,no,True,14/03/1912
+34.0,0,2, male,66.0,0,0,$10.50,S,Second,man,True,,Southampton,no,True,"January 30, 1912"
+238.0,1,2,F,8.0,0,2,26.25,S,Second,child,False,,Southampton,yes,False,1912-04-04
+844.0,0,3,m,34.5,0,0,6.4375,C,Third,man,True,,Cherbourg,no,True,1912-01-26
+283.0,0,3,M,16.0,0,0,$9.50,S,Third,man,True,,Southampton,no,True,"March 05, 1912"
+587.0,0,2,M,47.0,0,0,15.0,S,Second,man,True,,Southampton,no,True,12/01/1912
+363.0,0,3,f,45.0,0,1,14.4542,C,Third,woman,False,,Cherbourg,no,False,23/03/1912
+244.0,0,3,m,22.0,0,0,7.125,S,Third,man,True,,Southampton,no,True,01/03/1912
+604.0,0,3,male,44.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,"February 25, 1912"
+93.0,0,1,M,46.0,1,0,61.175,S,First,man,True,E,Southampton,no,False,05/02/1912
+211.0,0,3,m,24.0,0,0,7.05,S,Third,man,True,,Southampton,no,True,"January 30, 1912"
+338.0,1,1,Female,41.0,0,0,134.5,C,First,woman,False,E,Cherbourg,yes,True,15/03/1912
+302.0,1,3,Male,,2,0,$23.25,Q,Third,man,True,,Queenstown,yes,False,1912-02-19
+86.0,1,3,F,33.0,3,0,$15.85,S,Third,woman,False,,Southampton,yes,False,"March 16, 1912"
+191.0,1,2,F,32.0,0,0,13.0,S,Second,woman,False,,Southampton,yes,True,1912-01-09
+40.0,1,3,female ,14.0,1,0,11.2417,C,Third,child,False,,Cherbourg,yes,False,28/01/1912
+501.0,0,3,Male,17.0,0,0,8.6625,S,Third,man,True,,Southampton,no,True,20/03/1912
+624.0,0,3,Male,21.0,0,0,7.8542,S,Third,man,True,,Southampton,no,True,"March 16, 1912"
+508.0,1,1,Male,,0,0,$26.55,S,First,man,True,,Southampton,yes,True,12/02/1912
+635.0,0,3,Female,9.0,3,2,27.9,S,Third,child,False,,Southampton,no,False,"March 30, 1912"
+517.0,1,2,f,34.0,0,0,$10.50,S,Second,woman,False,F,Southampton,yes,True,26/03/1912
+105.0,0,3,male,37.0,2,0,7.925,S,Third,man,True,,Southampton,no,False,1912-03-07
+740.0,0,3,male,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"January 07, 1912"
+234.0,1,3,female ,5.0,4,2,31.3875,S,Third,child,False,,Southampton,yes,False,"March 14, 1912"
+106.0,0,3,male,28.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"February 09, 1912"
+342.0,1,1,F,24.0,3,2,$263.00,S,First,woman,False,C,Southampton,yes,False,"March 30, 1912"
+254.0,0,3,male,30.0,1,0,16.1,S,Third,man,True,,Southampton,no,False,"March 05, 1912"
+409.0,0,3,m,21.0,0,0,7.775,S,Third,man,True,,Southampton,no,True,"January 23, 1912"
+423.0,0,3, male,29.0,0,0,$7.88,S,Third,man,True,,Southampton,no,True,"March 18, 1912"
+209.0,1,3,F,16.0,0,0,7.75,Q,Third,woman,False,,Queenstown,yes,True,30/01/1912
+624.0,0,3,Male,21.0,0,0,7.8542,S,Third,man,True,,Southampton,no,True,"March 16, 1912"
+706.0,0,2,male,39.0,0,0,26.0,S,Second,man,True,,Southampton,no,True,23/02/1912
+83.0,1,3,female ,,0,0,$7.79,Q,Third,woman,False,,Queenstown,yes,True,"March 23, 1912"
+498.0,0,3, male,,0,0,15.1,S,Third,man,True,,Southampton,no,True,"January 07, 1912"
+842.0,0,2,M,16.0,0,0,10.5,S,Second,man,True,,Southampton,no,True,1912-01-28
+584.0,0,1,male,36.0,0,0,40.125,C,First,man,True,A,Cherbourg,no,True,23/02/1912
+840.0,1,1,Male,,0,0,29.7,C,First,man,True,C,Cherbourg,yes,True,1912-03-12
+88.0,0,3, male,,0,0,8.05,S,Third,man,True,,Southampton,no,True,"March 30, 1912"
+65.0,0,1, male,,0,0,27.7208,C,First,man,True,,Cherbourg,no,True,1912-02-11
+271.0,0,1,Male,,0,0,31.0,S,First,man,True,,Southampton,no,True,"March 08, 1912"
+606.0,0,3,m,36.0,1,0,15.55,S,Third,man,True,,Southampton,no,False,1912-03-16
+275.0,1,3,female,,0,0,$7.75,Q,Third,woman,False,,Queenstown,yes,True,1912-03-15
+798.0,1,3,female ,31.0,0,0,$8.68,S,Third,woman,False,,Southampton,yes,True,04/03/1912
+795.0,0,3,m,25.0,0,0,$7.90,S,Third,man,True,,Southampton,no,True,10/02/1912
+818.0,0,2,Male,31.0,1,1,37.0042,C,Second,man,True,,Cherbourg,no,False,24/03/1912
+154.0,0,3, male,40.5,0,2,14.5,S,Third,man,True,,Southampton,no,False,"February 19, 1912"
+614.0,0,3,Male,,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,"January 06, 1912"
+717.0,1,1,female ,38.0,0,0,227.525,C,First,woman,False,C,Cherbourg,yes,True,1912-01-22
+411.0,0,3,Male,,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"January 06, 1912"
+518.0,0,3,M,,0,0,$24.15,Q,Third,man,True,,Queenstown,no,True,1912-01-09
+45.0,1,3,female ,19.0,0,0,7.8792,Q,Third,woman,False,,Queenstown,yes,True,16/02/1912
+626.0,0,1,M,61.0,0,0,32.3208,S,First,man,True,D,Southampton,no,True,1912-02-22
+391.0,1,1,male,36.0,1,2,120.0,S,First,man,True,B,Southampton,yes,False,1912-03-01
+221.0,1,3,M,16.0,0,0,8.05,S,Third,man,True,,Southampton,yes,True,"January 14, 1912"
+141.0,0,3,female,,0,2,15.2458,C,Third,woman,False,,Cherbourg,no,False,"March 02, 1912"
+350.0,0,3,male,42.0,0,0,8.6625,S,Third,man,True,,Southampton,no,True,"January 20, 1912"
+358.0,0,2,f,38.0,0,0,13.0,S,Second,woman,False,,Southampton,no,True,23/03/1912
+134.0,1,2,F,29.0,1,0,$26.00,S,Second,woman,False,,Southampton,yes,False,26/02/1912
+262.0,1,3, male,3.0,4,2,31.3875,S,Third,child,False,,Southampton,yes,False,20/03/1912
+279.0,0,3, male,7.0,4,1,$29.12,Q,Third,child,False,,Queenstown,no,False,20/02/1912
+80.0,1,3,female,30.0,0,0,12.475,S,Third,woman,False,,Southampton,yes,True,1912-01-20
+863.0,1,1,female ,48.0,0,0,25.9292,S,First,woman,False,D,Southampton,yes,True,05/02/1912
+116.0,0,3,Male,21.0,0,0,$7.92,S,Third,man,True,,Southampton,no,True,"January 22, 1912"
+749.0,0,1,Male,19.0,1,0,$53.10,S,First,man,True,D,Southampton,no,False,"February 17, 1912"
+836.0,1,1,Female,39.0,1,1,$83.16,C,First,woman,False,E,Cherbourg,yes,False,1912-03-31
+381.0,1,1,female ,42.0,0,0,$227.53,C,First,woman,False,,Cherbourg,yes,True,04/02/1912
+854.0,1,1,F,16.0,0,1,39.4,S,First,woman,False,D,Southampton,yes,False,03/04/1912
+185.0,1,3,F,4.0,0,2,22.025,S,Third,child,False,,Southampton,yes,False,09/01/1912
+724.0,0,2,M,50.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,1912-01-19
+359.0,1,3,female ,,0,0,7.8792,Q,Third,woman,False,,Queenstown,yes,True,03/02/1912
+37.0,1,3,m,,0,0,7.2292,C,Third,man,True,,Cherbourg,yes,True,"January 13, 1912"
+340.0,0,1, male,45.0,0,0,$35.50,S,First,man,True,,Southampton,no,True,1912-03-25
+788.0,0,3,m,8.0,4,1,29.125,Q,Third,child,False,,Queenstown,no,False,1912-03-16
+421.0,0,3,M,,0,0,$7.90,C,Third,man,True,,Cherbourg,no,True,"February 04, 1912"
+150.0,0,2,male,42.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,13/02/1912
+10.0,1,2,Female,14.0,1,0,30.0708,C,Second,child,False,,Cherbourg,yes,False,1912-02-28
+46.0,0,3,m,,0,0,$8.05,S,Third,man,True,,Southampton,no,True,11/01/1912
+96.0,0,3,M,,0,0,8.05,S,Third,man,True,,Southampton,no,True,04/01/1912
+827.0,0,3,Male,,0,0,56.4958,S,Third,man,True,,Southampton,no,True,1912-02-07
+383.0,0,3, male,32.0,0,0,$7.92,S,Third,man,True,,Southampton,no,True,16/03/1912
+549.0,0,3, male,33.0,1,1,20.525,S,Third,man,True,,Southampton,no,False,1912-02-06
+561.0,0,3, male,,0,0,$7.75,Q,Third,man,True,,Queenstown,no,True,1912-03-16
+299.0,1,1,M,,0,0,30.5,S,First,man,True,C,Southampton,yes,True,1912-01-24
+291.0,1,1,f,26.0,0,0,78.85,S,First,woman,False,,Southampton,yes,True,1912-02-17
+416.0,0,3,female ,,0,0,8.05,S,Third,woman,False,,Southampton,no,True,"February 17, 1912"
+314.0,0,3,Male,28.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,"January 11, 1912"
+422.0,0,3,Male,21.0,0,0,7.7333,Q,Third,man,True,,Queenstown,no,True,01/03/1912
+658.0,0,3,female,32.0,1,1,15.5,Q,Third,woman,False,,Queenstown,no,False,1912-02-08
+123.0,0,2,M,32.5,1,0,30.0708,C,Second,man,True,,Cherbourg,no,False,1912-03-11
+772.0,0,3,M,48.0,0,0,7.8542,S,Third,man,True,,Southampton,no,True,"January 06, 1912"
+750.0,0,3,Male,31.0,0,0,7.75,Q,Third,man,True,,Queenstown,no,True,"February 29, 1912"
+362.0,0,2, male,29.0,1,0,$27.72,C,Second,man,True,,Cherbourg,no,False,1912-02-04
+337.0,0,1,Male,29.0,1,0,$66.60,S,First,man,True,C,Southampton,no,False,30/01/1912
+136.0,0,2,male,23.0,0,0,15.0458,C,Second,man,True,,Cherbourg,no,True,"January 09, 1912"
+780.0,1,1,f,43.0,0,1,211.3375,S,First,woman,False,B,Southampton,yes,False,"March 08, 1912"
+710.0,1,3,male,,1,1,15.2458,C,Third,man,True,,Cherbourg,yes,False,25/03/1912
+652.0,1,2,female,18.0,0,1,23.0,S,Second,woman,False,,Southampton,yes,False,"February 10, 1912"
+368.0,1,3,F,,0,0,7.2292,C,Third,woman,False,,Cherbourg,yes,True,1912-03-24
+880.0,1,1,female,56.0,0,1,83.1583,C,First,woman,False,C,Cherbourg,yes,False,10/03/1912
+829.0,1,3,Male,,0,0,7.75,Q,Third,man,True,,Queenstown,yes,True,"March 25, 1912"
+620.0,0,2, male,26.0,0,0,-5,S,Second,man,True,,Southampton,no,True,1912-04-04
+9.0,1,3,female,27.0,0,2,11.1333,S,Third,woman,False,,Southampton,yes,False,1912-02-02
+98.0,1,1,M,23.0,0,1,63.3583,C,First,man,True,D,Cherbourg,yes,False,1912-04-02
+888.0,1,1,female ,19.0,0,0,30.0,S,First,woman,False,B,Southampton,yes,True,06/01/1912
+349.0,1,3,m,3.0,1,1,$15.90,S,Third,child,False,,Southampton,yes,False,1912-01-29
+510.0,1,3,Male,26.0,0,0,$56.50,S,Third,man,True,,Southampton,yes,True,1912-02-26
+875.0,1,2,female,28.0,1,0,24.0,C,Second,woman,False,,Cherbourg,yes,False,1912-02-28
+704.0,0,3,male,25.0,0,0,7.7417,Q,Third,man,True,,Queenstown,no,True,"March 07, 1912"
+747.0,0,3, male,16.0,1,1,20.25,S,Third,man,True,,Southampton,no,False,25/02/1912
+22.0,1,2,Male,34.0,0,0,13.0,S,Second,man,True,D,Southampton,yes,True,"January 12, 1912"
+483.0,0,3,male,250.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,1912-02-14
+884.0,0,2,Male,28.0,0,0,$10.50,S,Second,man,True,,Southampton,no,True,"March 23, 1912"
+406.0,0,2,m,34.0,1,0,$21.00,S,Second,man,True,,Southampton,no,False,"January 26, 1912"
+7.0,0,1, male,54.0,0,0,51.8625,S,First,man,True,E,Southampton,no,True,1912-03-05
+778.0,1,3,female ,5.0,0,0,12.475,S,Third,child,False,,Southampton,yes,True,27/02/1912
+479.0,0,3,m,22.0,0,0,7.5208,S,Third,man,True,,Southampton,no,True,1912-01-16
+591.0,0,3,M,35.0,0,0,$7.12,S,Third,man,True,,Southampton,no,True,"January 02, 1912"
+492.0,0,3,Male,21.0,0,0,7.25,S,Third,man,True,,Southampton,no,True,1912-01-05
+47.0,0,3,male,,1,0,15.5,Q,Third,man,True,,Queenstown,no,False,1912-01-12
+365.0,0,3,m,,1,0,15.5,Q,Third,man,True,,Queenstown,no,False,1912-02-02
+297.0,0,3,male,23.5,0,0,7.2292,C,Third,man,True,,Cherbourg,no,True,"January 19, 1912"
+50.0,0,3,female,18.0,1,0,$17.80,S,Third,woman,False,,Southampton,no,False,1912-04-01
+488.0,0,1,m,58.0,0,0,29.7,C,First,man,True,B,Cherbourg,no,True,24/01/1912
+225.0,1,1, male,38.0,1,0,90.0,S,First,man,True,C,Southampton,yes,False,"March 22, 1912"
+751.0,1,2,f,4.0,1,1,23.0,S,Second,child,False,,Southampton,yes,False,15/02/1912
+220.0,0,2,M,30.0,0,0,$10.50,S,Second,man,True,,Southampton,no,True,07/02/1912
+864.0,0,3,female,,8,2,69.55,S,Third,woman,False,,Southampton,no,False,"January 31, 1912"
+762.0,0,3,male,41.0,0,0,$7.12,S,Third,man,True,,Southampton,no,True,"January 05, 1912"
+18.0,1,2,m,,0,0,13.0,S,Second,man,True,,Southampton,yes,True,1912-01-06
+648.0,1,1, male,56.0,0,0,35.5,C,First,man,True,A,Cherbourg,yes,True,19/01/1912
+202.0,0,3, male,,8,2,69.55,S,Third,man,True,,Southampton,no,False,1912-02-24
+563.0,0,2,Male,28.0,0,0,$13.50,S,Second,man,True,,Southampton,no,True,1912-02-18
+623.0,1,3,male,20.0,1,1,15.7417,C,Third,man,True,,Cherbourg,yes,False,"March 06, 1912"
+744.0,0,3,male,24.0,1,0,16.1,S,Third,man,True,,Southampton,no,False,"January 21, 1912"
+64.0,0,3,Male,4.0,3,2,27.9,S,Third,child,False,,Southampton,no,False,1912-02-05
+605.0,1,1, male,35.0,0,0,$26.55,C,First,man,True,,Cherbourg,yes,True,1912-01-04
+246.0,0,1,m,44.0,2,0,$90.00,Q,First,man,True,C,Queenstown,no,False,"January 03, 1912"
+443.0,0,3,M,25.0,1,0,7.775,S,Third,man,True,,Southampton,no,False,19/03/1912
+803.0,1,1, male,11.0,1,2,$120.00,S,First,child,False,B,Southampton,yes,False,1912-03-31
+575.0,0,3,m,16.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,04/03/1912
+1.0,0,3, male,22.0,1,0,7.25,S,Third,man,True,,Southampton,no,False,"February 13, 1912"
+540.0,1,1,female ,22.0,0,2,49.5,C,First,woman,False,B,Cherbourg,yes,False,"February 26, 1912"
+768.0,0,3,female,30.5,0,0,7.75,Q,Third,woman,False,,Queenstown,no,True,1912-03-27
+763.0,1,3,m,20.0,0,0,7.2292,C,Third,man,True,,Cherbourg,yes,True,1912-02-08
+690.0,1,1,female,15.0,0,1,$211.34,S,First,child,False,B,Southampton,yes,False,1912-02-08
+188.0,1,1,M,45.0,0,0,$26.55,S,First,man,True,,Southampton,yes,True,"January 04, 1912"
+407.0,0,3,Male,51.0,0,0,$7.75,S,Third,man,True,,Southampton,no,True,"January 08, 1912"
+149.0,0,2,M,36.5,0,2,26.0,S,Second,man,True,F,Southampton,no,False,11/03/1912
+752.0,1,3, male,6.0,0,1,12.475,S,Third,child,False,E,Southampton,yes,False,24/01/1912
+27.0,0,3, male,,0,0,7.225,C,Third,man,True,,Cherbourg,no,True,1912-03-03
+462.0,0,3,Male,34.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,13/03/1912
+671.0,1,2,f,40.0,1,1,$39.00,S,Second,woman,False,,Southampton,yes,False,1912-02-04
+656.0,0,2, male,24.0,2,0,73.5,S,Second,man,True,,Southampton,no,False,24/02/1912
+786.0,0,3,m,25.0,0,0,7.25,S,Third,man,True,,Southampton,no,True,21/03/1912
+60.0,0,3,M,11.0,5,2,46.9,S,Third,child,False,,Southampton,no,False,"March 03, 1912"
+715.0,0,2,m,52.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,1912-04-04
+327.0,0,3,M,61.0,0,0,6.2375,S,Third,man,True,,Southampton,no,True,1912-03-05
+425.0,0,3,male,18.0,1,1,20.2125,S,Third,man,True,,Southampton,no,False,1912-01-03
+721.0,1,2,female ,6.0,0,1,$33.00,S,Second,child,False,,Southampton,yes,False,"February 09, 1912"
+478.0,0,3,M,29.0,1,0,$7.05,S,Third,man,True,,Southampton,no,False,"February 21, 1912"
+44.0,1,2,female,3.0,1,2,41.5792,C,Second,child,False,,Cherbourg,yes,False,1912-02-17
+662.0,0,3,M,40.0,0,0,$7.22,C,Third,man,True,,Cherbourg,no,True,"March 11, 1912"
+636.0,1,2,Female,28.0,0,0,$13.00,S,Second,woman,False,,Southampton,yes,True,1912-03-01
+529.0,0,3, male,39.0,0,0,7.925,S,Third,man,True,,Southampton,no,True,1912-03-13
+737.0,0,3,female,48.0,1,3,34.375,S,Third,woman,False,,Southampton,no,False,1912-01-20
+484.0,1,3,Female,63.0,0,0,9.5875,S,Third,woman,False,,Southampton,yes,True,1912-02-23
+219.0,1,1,female ,32.0,0,0,76.2917,C,First,woman,False,D,Cherbourg,yes,True,"March 30, 1912"
+742.0,0,1,male,36.0,1,0,78.85,S,First,man,True,C,Southampton,no,False,03/03/1912
+438.0,1,2,female,24.0,2,3,18.75,S,Second,woman,False,,Southampton,yes,False,1912-03-24
+845.0,0,3,male,17.0,0,0,8.6625,S,Third,man,True,,Southampton,no,True,1912-04-01
+610.0,1,1,f,40.0,0,0,153.4625,S,First,woman,False,C,Southampton,yes,True,"February 22, 1912"
+486.0,0,3,F,,3,1,$25.47,S,Third,woman,False,,Southampton,no,False,29/02/1912
+126.0,1,3,m,12.0,1,0,$11.24,C,Third,child,False,,Cherbourg,yes,False,"February 24, 1912"
+828.0,1,2,M,1.0,0,2,37.0042,C,Second,child,False,,Cherbourg,yes,False,1912-03-05
+62.0,1,1,F,38.0,0,0,80.0,,First,woman,False,B,,yes,True,28/01/1912
+82.0,1,3,Male,29.0,0,0,9.5,S,Third,man,True,,Southampton,yes,True,"January 24, 1912"
+681.0,0,3,female,,0,0,8.1375,Q,Third,woman,False,,Queenstown,no,True,"February 09, 1912"
+325.0,0,3, male,,8,2,69.55,S,Third,man,True,,Southampton,no,False,1912-02-15
+386.0,0,2,male,18.0,0,0,73.5,S,Second,man,True,,Southampton,no,True,"February 19, 1912"
+190.0,0,3,Male,36.0,0,0,7.8958,S,Third,man,True,,Southampton,no,True,16/03/1912
+57.0,1,2,female ,21.0,0,0,10.5,S,Second,woman,False,,Southampton,yes,True,"February 04, 1912"
+20.0,1,3,F,,0,0,7.225,C,Third,woman,False,,Cherbourg,yes,True,20/03/1912
+877.0,0,3,male,20.0,0,0,$9.85,S,Third,man,True,,Southampton,no,True,1912-02-03
+87.0,0,3, male,16.0,1,3,34.375,S,Third,man,True,,Southampton,no,False,1912-03-11
+759.0,0,3,M,34.0,0,0,8.05,S,Third,man,True,,Southampton,no,True,16/02/1912
+650.0,1,3,female ,23.0,0,0,7.55,S,Third,woman,False,,Southampton,yes,True,21/02/1912
+317.0,1,2,f,24.0,1,0,$26.00,S,Second,woman,False,,Southampton,yes,False,10/02/1912
+35.0,0,1, male,28.0,1,0,$82.17,C,First,man,True,,Cherbourg,no,False,1912-02-28
+809.0,0,2,Male,39.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,03/03/1912
+139.0,0,3, male,16.0,0,0,$9.22,S,Third,man,True,,Southampton,no,True,1912-03-20
+767.0,0,1, male,,0,0,39.6,C,First,man,True,,Cherbourg,no,True,1912-01-29
+589.0,0,3,male,22.0,0,0,$8.05,S,Third,man,True,,Southampton,no,True,"February 07, 1912"
+499.0,0,1,F,25.0,1,2,$151.55,S,First,woman,False,C,Southampton,no,False,01/01/1912
+539.0,0,3,m,,0,0,14.5,S,Third,man,True,,Southampton,no,True,1912-02-01
+801.0,0,2, male,34.0,0,0,13.0,S,Second,man,True,,Southampton,no,True,"January 23, 1912"
+556.0,0,1,m,62.0,0,0,26.55,S,First,man,True,,Southampton,no,True,11/03/1912
+97.0,0,1,m,71.0,0,0,34.6542,C,First,man,True,A,Cherbourg,no,True,1912-03-29
+84.0,0,1, male,28.0,0,0,47.1,S,First,man,True,,Southampton,no,True,"March 08, 1912"
+447.0,1,2,Female,13.0,0,1,19.5,S,Second,child,False,,Southampton,yes,False,03/01/1912
+475.0,0,3,f,22.0,0,0,9.8375,S,Third,woman,False,,Southampton,no,True,20/03/1912
+765.0,0,3,Male,16.0,0,0,7.775,S,Third,man,True,,Southampton,no,True,1912-01-16
+367.0,1,1,female ,60.0,1,0,75.25,C,First,woman,False,D,Cherbourg,yes,False,19/01/1912
+698.0,1,3,Female,,0,0,$7.73,Q,Third,woman,False,,Queenstown,yes,True,07/01/1912
+586.0,1,1,f,18.0,0,2,79.65,S,First,woman,False,E,Southampton,yes,False,1912-02-25
+858.0,1,1,m,51.0,0,0,26.55,S,First,man,True,E,Southampton,yes,True,1912-01-19
+761.0,0,3,m,,0,0,$14.50,S,Third,man,True,,Southampton,no,True,1912-02-13
+402.0,0,3, male,26.0,0,0,$8.05,S,Third,man,True,,Southampton,no,True,"January 18, 1912"
+760.0,1,1,female ,33.0,0,0,86.5,S,First,woman,False,B,Southampton,yes,True,1912-01-12
+393.0,0,3,male,28.0,2,0,$7.92,S,Third,man,True,,Southampton,no,False,1912-03-06
+859.0,1,3,F,24.0,0,3,19.2583,C,Third,woman,False,,Cherbourg,yes,False,26/03/1912
+746.0,0,1, male,70.0,1,1,71.0,S,First,man,True,B,Southampton,no,False,02/02/1912
+272.0,1,3,M,25.0,0,0,0.0,S,Third,man,True,,Southampton,yes,True,"March 06, 1912"
+507.0,1,2,f,33.0,0,2,26.0,S,Second,woman,False,,Southampton,yes,False,30/01/1912
+711.0,1,1,female,24.0,0,0,49.5042,C,First,woman,False,C,Cherbourg,yes,True,1912-01-26
+435.0,0,1,M,50.0,1,0,55.9,S,First,man,True,E,Southampton,no,False,"January 26, 1912"
+649.0,0,3,Male,,0,0,7.55,S,Third,man,True,,Southampton,no,True,1912-01-26
+808.0,0,3,F,18.0,0,0,$7.78,S,Third,woman,False,,Southampton,no,True,1912-03-07
+562.0,0,3,m,40.0,0,0,$7.90,S,Third,man,True,,Southampton,no,True,1912-03-15
+208.0,1,3,M,26.0,0,0,$18.79,C,Third,man,True,,Cherbourg,yes,True,11/02/1912
+320.0,1,1,female,40.0,1,1,134.5,C,First,woman,False,E,Cherbourg,yes,False,"February 20, 1912"
+149.0,0,2,M,36.5,0,2,26.0,S,Second,man,True,F,Southampton,no,False,11/03/1912
+133.0,0,3,female,47.0,1,0,14.5,S,Third,woman,False,,Southampton,no,False,1912-03-17
+51.0,0,3,male,7.0,4,1,39.6875,S,Third,child,False,,Southampton,no,False,27/01/1912
+239.0,0,2, male,19.0,0,0,$10.50,S,Second,man,True,,Southampton,no,True,08/02/1912
+565.0,0,3,f,,0,0,8.05,S,Third,woman,False,,Southampton,no,True,1912-02-13
+593.0,0,3,m,47.0,0,0,7.25,S,Third,man,True,,Southampton,no,True,"March 03, 1912"
+451.0,0,2,m,36.0,1,2,27.75,S,Second,man,True,,Southampton,no,False,29/01/1912
+32.0,1,1,F,,1,0,146.5208,C,First,woman,False,B,Cherbourg,yes,False,"January 01, 1912"
+122.0,0,3,m,,0,0,8.05,S,Third,man,True,,Southampton,no,True,1912-03-05
+212.0,1,2,Female,35.0,0,0,$21.00,S,Second,woman,False,,Southampton,yes,True,29/01/1912
+352.0,0,1,M,,0,0,35.0,S,First,man,True,C,Southampton,no,True,"January 13, 1912"
+455.0,0,3,male,,0,0,$8.05,S,Third,man,True,,Southampton,no,True,1912-03-22
+303.0,0,3,m,19.0,0,0,0.0,S,Third,man,True,,Southampton,no,True,"March 11, 1912"
+709.0,1,1,female ,22.0,0,0,151.55,S,First,woman,False,,Southampton,yes,True,"January 03, 1912"
+89.0,1,1,f,23.0,3,2,263.0,S,First,woman,False,C,Southampton,yes,False,02/03/1912
+326.0,1,1,female ,36.0,0,0,135.6333,C,First,woman,False,C,Cherbourg,yes,True,"February 20, 1912"
+324.0,1,2,female ,22.0,1,1,29.0,S,Second,woman,False,,Southampton,yes,False,03/02/1912
+256.0,1,3,Female,29.0,0,2,15.2458,C,Third,woman,False,,Cherbourg,yes,False,03/04/1912
+571.0,1,2, male,62.0,0,0,10.5,S,Second,man,True,,Southampton,yes,True,21/03/1912
+546.0,0,1,M,64.0,0,0,$26.00,S,First,man,True,,Southampton,no,True,"January 12, 1912"
+551.0,1,1,Male,17.0,0,2,110.8833,C,First,man,True,C,Cherbourg,yes,False,"February 01, 1912"
+360.0,1,3,female,,0,0,7.8792,Q,Third,woman,False,,Queenstown,yes,True,02/04/1912
+52.0,0,3,M,21.0,0,0,7.8,S,Third,man,True,,Southampton,no,True,1912-02-03
+876.0,1,3,f,15.0,0,0,7.225,C,Third,child,False,,Cherbourg,yes,True,"January 12, 1912"
+773.0,0,2,female ,57.0,0,0,10.5,S,Second,woman,False,E,Southampton,no,True,"March 15, 1912"
+103.0,0,1,m,21.0,0,1,77.2875,S,First,man,True,D,Southampton,no,False,03/01/1912
+196.0,1,1,Female,58.0,0,0,146.5208,C,First,woman,False,B,Cherbourg,yes,True,1912-03-08
+680.0,1,1,male,36.0,0,1,512.3292,C,First,man,True,B,Cherbourg,yes,False,15/01/1912
+806.0,0,3,male,31.0,0,0,$7.78,S,Third,man,True,,Southampton,no,True,"March 08, 1912"
+629.0,0,3,m,26.0,0,0,$7.90,S,Third,man,True,,Southampton,no,True,1912-03-10
+125.0,0,1,M,54.0,0,1,77.2875,S,First,man,True,D,Southampton,no,False,"January 18, 1912"
+405.0,0,3,Female,20.0,0,0,8.6625,S,Third,woman,False,,Southampton,no,True,1912-02-20
+731.0,1,1,F,29.0,0,0,$211.34,S,First,woman,False,B,Southampton,yes,True,07/03/1912
+288.0,0,3, male,22.0,0,0,$7.90,S,Third,man,True,,Southampton,no,True,1912-02-13
+832.0,1,2,m,0.83,1,1,18.75,S,Second,child,False,,Southampton,yes,False,1912-01-19
+48.0,1,3,female,,0,0,7.75,Q,Third,woman,False,,Queenstown,yes,True,1912-01-20
+726.0,0,3,Male,20.0,0,0,8.6625,S,Third,man,True,,Southampton,no,True,02/03/1912
+588.0,1,1,m,60.0,1,1,$79.20,C,First,man,True,B,Cherbourg,yes,False,1912-02-07
+608.0,1,1,m,27.0,0,0,30.5,S,First,man,True,,Southampton,yes,True,"April 04, 1912"
+434.0,0,3, male,17.0,0,0,7.125,S,Third,man,True,,Southampton,no,True,1912-03-25
+675.0,0,2,male,,0,0,0.0,S,Second,man,True,,Southampton,no,True,1912-03-26
+264.0,0,1,M,40.0,0,0,0.0,S,First,man,True,B,Southampton,no,True,10/03/1912
+361.0,0,3, male,40.0,1,4,27.9,S,Third,man,True,,Southampton,no,False,"March 01, 1912"
+76.0,0,3,male,25.0,0,0,7.65,S,Third,man,True,F,Southampton,no,True,1912-01-10
+467.0,0,2,M,,0,0,0.0,S,Second,man,True,,Southampton,no,True,26/01/1912
+300.0,1,1,female ,50.0,0,1,247.5208,C,First,woman,False,B,Cherbourg,yes,False,1912-02-11
+535.0,0,3,f,30.0,0,0,8.6625,S,Third,woman,False,,Southampton,no,True,21/01/1912
+585.0,0,3,male,,0,0,8.7125,C,Third,man,True,,Cherbourg,no,True,"January 25, 1912"
+494.0,0,1,male,71.0,0,0,49.5042,C,First,man,True,,Cherbourg,no,True,24/03/1912
+528.0,0,1,male,,0,0,221.7792,S,First,man,True,C,Southampton,no,True,1912-03-10
+169.0,0,1,Male,,0,0,$25.93,S,First,man,True,,Southampton,no,True,05/02/1912
